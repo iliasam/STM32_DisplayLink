@@ -8,9 +8,9 @@ LVGL_Task - LVGL_TaskHandler() - used to update GUI
 defaultTask - StartDefaultTask() - used to send data to USB.
 USBH_Thread - USBH_Process_OS() - hidden part of HAL, used to handle working with USB.
 
-Fist part of demo is displaying static GUI image - during first 12s from startup.
-Second part of demo is displaying GUI with working: keyboard, text editing field, gauge meter,  progress bar, slider, label with moving text.
-Mouse is emulated using accelerometer installed at the STM32F4-Discovery board.
+First part of the demo is displaying static GUI image - during the first 12s from startup.
+The second part of the demo is displaying GUI with active: keyboard, text editing field, gauge meter,  progress bar, slider, label with moving text.
+Mouse is emulated using the accelerometer installed at the STM32F4-Discovery board.
 
 Memory usage:
   226 001 bytes of readonly  code memory (Flash)
