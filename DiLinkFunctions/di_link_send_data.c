@@ -83,7 +83,17 @@ USBH_StatusTypeDef USBH_DI_LINK_SendConfiguration(USBH_HandleTypeDef *phost)
 void DI_LINK_DrawRLEImage16bit(USBH_HandleTypeDef *phost, 
   uint16_t x, uint16_t y, uint16_t width, uint16_t height, uint8_t* data)
 {
+  while (phost->pActiveClass == NULL)
+  {
+    osThreadYield();
+  }
+  
+  //now DI_LINK_Handle is correct
   DI_LINK_HandleTypeDef *DI_LINK_Handle = (DI_LINK_HandleTypeDef *) phost->pActiveClass->pData;
+  while (DI_LINK_Handle->state != DI_LINK_IDLE_STATE)
+  {
+    osThreadYield();
+  }
   
   uint8_t *pos = &di_link_data_buf[0];
   uint32_t length;
@@ -108,11 +118,6 @@ void DI_LINK_DrawRLEImage16bit(USBH_HandleTypeDef *phost,
   pos = displaylink_sync_command(pos);
   length = (uint32_t)(pos - di_link_data_buf);
   USBH_DI_LINK_Transmit(phost, di_link_data_buf, length);
-  while (DI_LINK_Handle->state != DI_LINK_IDLE_STATE)
-  {
-    //osDelay(1);
-    osThreadYield();
-  }
 }
 
 //Draw line with RLE encoding (really - just place data to command buffer)
@@ -142,6 +147,7 @@ uint8_t *displaylink_draw_rle_line16_bit(
   return bufptr;
 }
 
+//Taken from "udlfb.c"
 static void dlfb_compress_hline(
   uint16_t **pixel_start_ptr,
   uint16_t *const pixel_end,

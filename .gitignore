@@ -2,3 +2,5 @@ BasicTestSrc/EWARM/firmware/Exe/
 BasicTestSrc/EWARM/firmware/List/
 BasicTestSrc/EWARM/firmware/Obj/
 BasicTestSrc/EWARM/settings/
+LVGL_Src/EWARM/firmware/Obj/
+LVGL_Src/EWARM/settings/

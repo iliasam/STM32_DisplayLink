@@ -1,0 +1,2603 @@
+###############################################################################
+#
+# IAR ELF Linker V7.50.2.10312/W32 for ARM                21/Jun/2022  18:20:36
+# Copyright 2007-2015 IAR Systems AB.
+#
+#    Output file  =  
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Exe\firmware.out
+#    Map file     =  
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\List\firmware.map
+#    Command line =  
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\cmsis_os.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\croutine.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\cursor_icon.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\di_link_send_data.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\event_groups.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\freertos.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\heap_4.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lis302dl_hal.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\list.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_anim.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_arc.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_area.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_async.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_bar.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_bidi.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_btn.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_btnmatrix.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_calendar.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_calendar_header_arrow.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_calendar_header_dropdown.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_canvas.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_chart.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_checkbox.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_color.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_colorwheel.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_disp.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_draw.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_draw_arc.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_draw_img.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_draw_label.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_draw_layer.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_draw_line.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_draw_mask.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_draw_rect.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_draw_sw.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_draw_sw_arc.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_draw_sw_blend.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_draw_sw_dither.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_draw_sw_gradient.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_draw_sw_img.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_draw_sw_layer.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_draw_sw_letter.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_draw_sw_line.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_draw_sw_polygon.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_draw_sw_rect.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_draw_sw_transform.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_draw_transform.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_draw_triangle.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_dropdown.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_event.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_extra.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_flex.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_font.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_font_fmt_txt.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_font_loader.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_font_montserrat_14.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_font_montserrat_20.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_font_montserrat_28.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_fs.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_gc.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_grid.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_group.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_hal_disp.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_hal_indev.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_hal_tick.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_img.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_img_buf.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_img_cache.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_img_decoder.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_indev.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_indev_scroll.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_keyboard.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_label.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_led.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_line.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_list.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_ll.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_log.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_math.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_mem.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_menu.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_meter.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_msgbox.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_obj.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_obj_class.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_obj_draw.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_obj_pos.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_obj_scroll.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_obj_style.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_obj_style_gen.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_obj_tree.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_objx_templ.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_port_disp.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_port_mouse.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_printf.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_refr.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_roller.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_slider.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_spinbox.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_spinner.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_style.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_style_gen.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_switch.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_table.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_tabview.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_templ.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_textarea.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_theme.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_theme_default.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_tileview.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_timer.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_tlsf.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_txt.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_txt_ap.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_utils.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\lv_win.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\main.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\port.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\portasm.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\queue.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\startup_stm32f407xx.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\stm32f4xx_hal.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\stm32f4xx_hal_cortex.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\stm32f4xx_hal_dma.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\stm32f4xx_hal_dma_ex.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\stm32f4xx_hal_exti.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\stm32f4xx_hal_flash.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\stm32f4xx_hal_flash_ex.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\stm32f4xx_hal_flash_ramfunc.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\stm32f4xx_hal_gpio.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\stm32f4xx_hal_hcd.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\stm32f4xx_hal_i2c.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\stm32f4xx_hal_i2c_ex.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\stm32f4xx_hal_i2s.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\stm32f4xx_hal_i2s_ex.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\stm32f4xx_hal_msp.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\stm32f4xx_hal_pwr.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\stm32f4xx_hal_pwr_ex.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\stm32f4xx_hal_rcc.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\stm32f4xx_hal_rcc_ex.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\stm32f4xx_hal_spi.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\stm32f4xx_hal_tim.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\stm32f4xx_hal_tim_ex.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\stm32f4xx_it.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\stm32f4xx_ll_usb.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\stream_buffer.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\system_stm32f4xx.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\tasks.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\timers.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\ui.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\ui_helpers.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\ui_img_broken_clouds_png.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\ui_img_few_clouds_png.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\ui_img_rain_png.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\usb_host.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\usbh_conf.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\usbh_core.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\usbh_ctlreq.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\usbh_di_link.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\usbh_ioreq.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\usbh_pipes.o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj\usbh_platform.o
+#        --redirect _Printf=_PrintfFull --redirect _Scanf=_ScanfFull -o
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Exe\firmware.out --map
+#        D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\List\firmware.map
+#        --config
+#        D:\MYPROGS\displayLink\firmware_lwgl\EWARM\stm32f407xx_flash.icf
+#        --semihosting --entry __iar_program_start --vfe
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor                     = *
+__Heap_Handler                = DLMalloc
+__SystemLibrary               = DLib
+__dlib_dynamic_initialization = normal
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x08000000 { ro section .intvec };
+"P1":  place in [from 0x08000000 to 0x080fffff] { ro };
+"P2":  place in [from 0x20000000 to 0x2001ffff] { rw, block CSTACK, block HEAP };
+"P3":  place in [from 0x10000000 to 0x1000ffff] { section .ccmram };
+
+  Section             Kind        Address     Size  Object
+  -------             ----        -------     ----  ------
+"A1":                                        0x188
+  .intvec             ro code  0x08000000    0x188  startup_stm32f407xx.o [1]
+                             - 0x08000188    0x188
+
+"P1":                                      0x5708b
+  .rodata             const    0x08000188   0x91ac  lv_font_montserrat_28.o [1]
+  .rodata             const    0x08009334   0x5524  lv_font_montserrat_20.o [1]
+  .rodata             const    0x0800e858   0x483c  ui_img_broken_clouds_png.o [1]
+  .rodata             const    0x08013094   0x483c  ui_img_few_clouds_png.o [1]
+  .rodata             const    0x080178d0   0x483c  ui_img_rain_png.o [1]
+  .text               ro code  0x0801c10c   0x4344  lv_theme_default.o [1]
+  .text               ro code  0x08020450    0x464  lv_color.o [1]
+  .text               ro code  0x080208b4    0x7b0  lv_style.o [1]
+  .text               ro code  0x08021064    0x1e8  lv_style_gen.o [1]
+  .text               ro code  0x0802124c    0x238  lv_hal_disp.o [1]
+  .text               ro code  0x08021484    0xb86  lv_mem.o [1]
+  .text               ro code  0x0802200a     0x76  lz77_init_single.o [5]
+  .text               ro code  0x08022080    0x1f2  lv_disp.o [1]
+  .text               ro code  0x08022272      0xa  xsprout.o [3]
+  .text               ro code  0x0802227c   0x16d8  lv_obj_style.o [1]
+  .text               ro code  0x08023954    0x5da  lv_obj_tree.o [1]
+  .text               ro code  0x08023f30    0xdb0  lv_obj.o [1]
+  .text               ro code  0x08024ce0    0x13a  lv_ll.o [1]
+  .text               ro code  0x08024e1c    0x1dc  lv_timer.o [1]
+  .text               ro code  0x08024ff8   0x139c  lv_obj_scroll.o [1]
+  .text               ro code  0x08026394   0x1f98  lv_obj_pos.o [1]
+  .text               ro code  0x0802832c    0xb10  lv_tlsf.o [1]
+  .text               ro code  0x08028e3c      0x6  ABImemclr4.o [5]
+  .text               ro code  0x08028e44      0x6  ABImemclr.o [5]
+  .text               ro code  0x08028e4c     0x66  ABImemset.o [5]
+  .text               ro code  0x08028eb4    0x430  lv_anim.o [1]
+  .text               ro code  0x080292e4     0x96  lv_theme.o [1]
+  .text               ro code  0x0802937c    0x358  lv_event.o [1]
+  .text               ro code  0x080296d4    0x73a  lv_obj_draw.o [1]
+  .text               ro code  0x08029e10     0xce  lv_hal_indev.o [1]
+  .text               ro code  0x08029ee0    0xf60  lv_indev.o [1]
+  .text               ro code  0x0802ae40    0x24a  lv_obj_class.o [1]
+  .text               ro code  0x0802b08c    0x338  lv_fs.o [1]
+  .text               ro code  0x0802b3c4    0x452  lv_group.o [1]
+  .text               ro code  0x0802b816      0xc  lv_draw.o [1]
+  .text               ro code  0x0802b824   0x1294  lv_refr.o [1]
+  .text               ro code  0x0802cab8    0x8c8  lv_img_decoder.o [1]
+  .text               ro code  0x0802d380     0x12  lv_extra.o [1]
+  .text               ro code  0x0802d394    0x54a  lv_area.o [1]
+  .text               ro code  0x0802d8e0     0x8e  lv_draw_rect.o [1]
+  .text               ro code  0x0802d970   0x156e  lv_draw_mask.o [1]
+  .text               ro code  0x0802eee0     0x34  lv_hal_tick.o [1]
+  .text               ro code  0x0802ef14     0xe8  lv_obj_style_gen.o [1]
+  .text               ro code  0x0802effc     0x76  ABImemcpy_unaligned.o [5]
+  .text               ro code  0x0802f074     0x3a  ABImemset48.o [5]
+  .text               ro code  0x0802f0b0    0x258  lv_math.o [1]
+  .text               ro code  0x0802f308    0x360  lv_draw_img.o [1]
+  .text               ro code  0x0802f668    0xde2  lv_indev_scroll.o [1]
+  .text               ro code  0x0803044c     0x36  strlen.o [5]
+  .text               ro code  0x08030484    0x264  lv_font_fmt_txt.o [1]
+  .text               ro code  0x080306e8   0x1288  lv_label.o [1]
+  .text               ro code  0x08031970     0xce  lv_draw_layer.o [1]
+  .text               ro code  0x08031a40     0x44  strcpy_unaligned.o [5]
+  .text               ro code  0x08031a84     0x42  strcmp_unaligned.o [5]
+  .text               ro code  0x08031ac8    0xc34  lv_flex.o [1]
+  .text               ro code  0x080326fc    0xd5e  lv_grid.o [1]
+  .text               ro code  0x0803345c    0x754  lv_draw_label.o [1]
+  .text               ro code  0x08033bb0     0x5a  lv_img_cache.o [1]
+  .text               ro code  0x08033c0c    0x110  lv_img_buf.o [1]
+  .text               ro code  0x08033d1c     0x4a  lv_utils.o [1]
+  .text               ro code  0x08033d68    0x8b8  lv_txt.o [1]
+  .text               ro code  0x08034620     0xd0  lv_font.o [1]
+  .text               ro code  0x080346f0     0x34  lv_draw_line.o [1]
+  .text               ro code  0x08034724    0x728  lv_printf.o [1]
+  .text               ro code  0x08034e4c     0xee  I64DivMod.o [5]
+  .text               ro code  0x08034f3c      0x2  I64DivZer.o [5]
+  .rodata             const    0x08034f40   0x3548  lv_font_montserrat_14.o [1]
+  .text               ro code  0x08038488   0x23d0  lv_chart.o [1]
+  .text               ro code  0x0803a858   0x2028  lv_draw_sw_rect.o [1]
+  .text               ro code  0x0803c880    0xe06  lv_draw_sw_blend.o [1]
+  .text               ro code  0x0803d688    0x47a  lv_draw_sw_gradient.o [1]
+  .text               ro code  0x0803db04   0x14f0  dlmalloc.o [3]
+  .text               ro code  0x0803eff4      0x6  abort.o [3]
+  .text               ro code  0x0803effc     0x2c  xgetmemchunk.o [3]
+  .text               ro code  0x0803f028     0x14  exit.o [6]
+  .text               ro code  0x0803f03c   0x1166  xprintffull.o [3]
+  .text               ro code  0x080401a2     0x20  xmbtowc.o [3]
+  .text               ro code  0x080401c4     0x16  strchr.o [5]
+  .text               ro code  0x080401dc     0x58  memchr.o [5]
+  .text               ro code  0x08040234      0xa  xmbcurmax.o [3]
+  .text               ro code  0x0804023e     0x1a  xwctomb.o [3]
+  .text               ro code  0x08040258     0x42  xdnorm.o [4]
+  .text               ro code  0x0804029c     0x2e  DblCmpLe.o [4]
+  .text               ro code  0x080402cc     0x2e  DblCmpGe.o [4]
+  .text               ro code  0x080402fc    0x114  xdscale.o [4]
+  .text               ro code  0x08040410     0x58  DblToI32.o [4]
+  .text               ro code  0x08040468     0x30  I32ToDbl.o [4]
+  .text               ro code  0x08040498    0x180  DblSub.o [4]
+  .text               ro code  0x08040618    0x1a2  DblMul.o [4]
+  .text               ro code  0x080407bc    0x256  DblDiv.o [4]
+  .text               ro code  0x08040a14     0x6c  localeconv.o [3]
+  .text               ro code  0x08040a80      0xe  div.o [3]
+  .text               ro code  0x08040a90     0x14  setlocale.o [3]
+  .text               ro code  0x08040aa4     0x60  xencoding_sb.o [3]
+  .text               ro code  0x08040b04     0xd4  DblAdd.o [4]
+  .text               ro code  0x08040bd8      0x2  xtls.o [3]
+  .text               ro code  0x08040bdc   0x10d8  lv_btnmatrix.o [1]
+  .text               ro code  0x08041cb4   0x10cc  lv_textarea.o [1]
+  .text               ro code  0x08042d80   0x10c8  ui.o [1]
+  .text               ro code  0x08043e48    0x8e0  lv_bar.o [1]
+  .text               ro code  0x08044728     0x16  ui_helpers.o [1]
+  .text               ro code  0x08044740    0xd64  lv_meter.o [1]
+  .text               ro code  0x080454a4     0x34  sprintf.o [3]
+  .text               ro code  0x080454d8    0x2d4  lv_msgbox.o [1]
+  .text               ro code  0x080457ac    0x364  lv_keyboard.o [1]
+  .text               ro code  0x08045b10    0x8cc  lv_img.o [1]
+  .text               ro code  0x080463dc     0x4c  lv_btn.o [1]
+  .text               ro code  0x08046428    0x8c0  lv_slider.o [1]
+  .text               ro code  0x08046ce8    0x3fc  lv_draw_arc.o [1]
+  .text               ro code  0x080470e4   0x106c  lv_dropdown.o [1]
+  .text               ro code  0x08048150    0xd10  lv_roller.o [1]
+  .text               ro code  0x08048e60    0xcfe  lv_arc.o [1]
+  .text               ro code  0x08049b60    0xb5c  lv_draw_sw_arc.o [1]
+  .text               ro code  0x0804a6bc    0xa6e  lv_table.o [1]
+  .text               ro code  0x0804b12c    0xa44  lv_colorwheel.o [1]
+  .text               ro code  0x0804bb70    0x9c4  tasks.o [1]
+  .text               ro code  0x0804c534     0xb6  list.o [1]
+  .text               ro code  0x0804c5ec    0x268  port.o [1]
+  .text               ro code  0x0804c854    0x214  heap_4.o [1]
+  .text               ro code  0x0804ca68     0x14  freertos.o [1]
+  CODE                ro code  0x0804ca7c     0xb0  portasm.o [1]
+  .text               ro code  0x0804cb2c    0x898  stm32f4xx_hal_hcd.o [1]
+  .text               ro code  0x0804d3c4    0x258  usbh_conf.o [1]
+  .text               ro code  0x0804d61c    0x684  stm32f4xx_ll_usb.o [1]
+  .text               ro code  0x0804dca0    0x1d4  stm32f4xx_hal_gpio.o [1]
+  .text               ro code  0x0804de74     0xbc  stm32f4xx_hal_cortex.o [1]
+  .text               ro code  0x0804df30    0x6d0  usbh_core.o [1]
+  .text               ro code  0x0804e600    0x458  main.o [1]
+  .text               ro code  0x0804ea58     0x14  usbh_platform.o [1]
+  .text               ro code  0x0804ea6c     0xbc  stm32f4xx_hal.o [1]
+  .text               ro code  0x0804eb28    0x198  cmsis_os.o [1]
+  .text               ro code  0x0804ecc0     0x94  usbh_pipes.o [1]
+  .text               ro code  0x0804ed54    0x63a  usbh_ctlreq.o [1]
+  .text               ro code  0x0804f390    0x15c  stm32f4xx_hal_i2c.o [1]
+  .text               ro code  0x0804f4ec    0x276  stm32f4xx_hal_i2s.o [1]
+  .text               ro code  0x0804f764    0x738  stm32f4xx_hal_spi.o [1]
+  .text               ro code  0x0804fe9c     0xb4  lv_port_disp.o [1]
+  .text               ro code  0x0804ff50    0x12c  lv_port_mouse.o [1]
+  .text               ro code  0x0805007c    0x1d4  lis302dl_hal.o [1]
+  .text               ro code  0x08050250    0x4fc  stm32f4xx_hal_rcc.o [1]
+  .text               ro code  0x0805074c    0x180  stm32f4xx_hal_rcc_ex.o [1]
+  .text               ro code  0x080508cc     0x60  usb_host.o [1]
+  .text               ro code  0x0805092c    0x1ac  stm32f4xx_hal_msp.o [1]
+  .text               ro code  0x08050ad8    0x844  queue.o [1]
+  .text               ro code  0x0805131c     0x98  usbh_ioreq.o [1]
+  .text               ro code  0x080513b4    0x45c  di_link_send_data.o [1]
+  .text               ro code  0x08051810    0x2a8  usbh_di_link.o [1]
+  .text               ro code  0x08051ab8    0x7e4  lv_draw_sw_line.o [1]
+  .text               ro code  0x0805229c    0x6f4  lv_draw_sw_transform.o [1]
+  .text               ro code  0x08052990    0x5ac  lv_draw_sw_img.o [1]
+  .text               ro code  0x08052f3c     0x30  lv_draw_transform.o [1]
+  .text               ro code  0x08052f6c    0x598  lv_draw_sw_letter.o [1]
+  .text               ro code  0x08053504    0x50c  lv_menu.o [1]
+  .text               ro code  0x08053a10    0x4f4  lv_calendar.o [1]
+  .text               ro code  0x08053f04    0x480  lv_spinbox.o [1]
+  .rodata             const    0x08054384    0x460  lv_keyboard.o [1]
+  .text               ro code  0x080547e4    0x430  lv_draw_sw_polygon.o [1]
+  .text               ro code  0x08054c14    0x3e4  lv_calendar_header_dropdown.o [1]
+  .text               ro code  0x08054ff8    0x380  lv_checkbox.o [1]
+  .text               ro code  0x08055378    0x378  lv_tabview.o [1]
+  .text               ro code  0x080556f0    0x350  lv_switch.o [1]
+  .rodata             const    0x08055a40    0x340  cursor_icon.o [1]
+  .text               ro code  0x08055d80    0x308  lv_led.o [1]
+  .text               ro code  0x08056088    0x270  stm32f4xx_hal_i2s_ex.o [1]
+  .text               ro code  0x080562f8    0x1ec  lv_draw_sw_layer.o [1]
+  .text               ro code  0x080564e4    0x1c4  lv_line.o [1]
+  .text               ro code  0x080566a8    0x1b4  lv_calendar_header_arrow.o [1]
+  .text               ro code  0x0805685c    0x19c  lv_tileview.o [1]
+  .text               ro code  0x080569f8     0xf8  lv_draw_sw.o [1]
+  .text               ro code  0x08056af0     0xa8  lv_spinner.o [1]
+  .text               ro code  0x08056b98     0x94  lv_win.o [1]
+  .rodata             const    0x08056c2c     0x6c  lv_calendar_header_arrow.o [1]
+  .text               ro code  0x08056c98     0x54  lv_list.o [1]
+  .text               ro code  0x08056cec     0x40  zero_init3.o [5]
+  .text               ro code  0x08056d2c     0x38  stm32f4xx_it.o [1]
+  .rodata             const    0x08056d64     0x2d  lv_btnmatrix.o [1]
+  .text               ro code  0x08056d94     0x2c  system_stm32f4xx.o [1]
+  .text               ro code  0x08056dc0     0x28  data_init.o [5]
+  .text               ro code  0x08056de8     0x22  fpinit_M.o [4]
+  .iar.init_table     const    0x08056e0c     0x28  - Linker created -
+  .rodata             const    0x08056e34     0x1c  lv_calendar.o [1]
+  .text               ro code  0x08056e50     0x1a  cmain.o [5]
+  .text               ro code  0x08056e6a      0x4  low_level_init.o [3]
+  .text               ro code  0x08056e6e      0x4  exit.o [3]
+  .text               ro code  0x08056e74      0xa  cexit.o [5]
+  .rodata             const    0x08056e80     0x18  lv_theme_default.o [1]
+  .rodata             const    0x08056e98     0x18  main.o [1]
+  .rodata             const    0x08056eb0     0x14  ui.o [1]
+  .text               ro code  0x08056ec4     0x10  startup_stm32f407xx.o [1]
+  .rodata             const    0x08056ed4      0xc  usbh_core.o [1]
+  .rodata             const    0x08056ee0      0xc  usbh_di_link.o [1]
+  .text               ro code  0x08056eec      0xc  cstartup_M.o [5]
+  .rodata             const    0x08056ef8      0x8  system_stm32f4xx.o [1]
+  .text               ro code  0x08056f00      0x4  startup_stm32f407xx.o [1]
+  .text               ro code  0x08056f04      0x4  startup_stm32f407xx.o [1]
+  .text               ro code  0x08056f08      0x4  startup_stm32f407xx.o [1]
+  .text               ro code  0x08056f0c      0x4  startup_stm32f407xx.o [1]
+  .text               ro code  0x08056f10      0x4  startup_stm32f407xx.o [1]
+  .text               ro code  0x08056f14      0x4  startup_stm32f407xx.o [1]
+  .text               ro code  0x08056f18      0x4  startup_stm32f407xx.o [1]
+  .text               ro code  0x08056f1c      0x4  startup_stm32f407xx.o [1]
+  .text               ro code  0x08056f20      0x4  startup_stm32f407xx.o [1]
+  .text               ro code  0x08056f24      0x4  startup_stm32f407xx.o [1]
+  .text               ro code  0x08056f28      0x4  startup_stm32f407xx.o [1]
+  .text               ro code  0x08056f2c      0x4  startup_stm32f407xx.o [1]
+  .text               ro code  0x08056f30      0x4  startup_stm32f407xx.o [1]
+  .text               ro code  0x08056f34      0x4  startup_stm32f407xx.o [1]
+  .text               ro code  0x08056f38      0x4  startup_stm32f407xx.o [1]
+  .text               ro code  0x08056f3c      0x4  startup_stm32f407xx.o [1]
+  .text               ro code  0x08056f40      0x4  startup_stm32f407xx.o [1]
+  .text               ro code  0x08056f44      0x4  startup_stm32f407xx.o [1]
+  .text               ro code  0x08056f48      0x4  startup_stm32f407xx.o [1]
+  .text               ro code  0x08056f4c      0x4  startup_stm32f407xx.o [1]
+  .text               ro code  0x08056f50      0x4  startup_stm32f407xx.o [1]
+  .text               ro code  0x08056f54      0x4  startup_stm32f407xx.o [1]
+  .text               ro code  0x08056f58      0x4  startup_stm32f407xx.o [1]
+  .text               ro code  0x08056f5c      0x4  startup_stm32f407xx.o [1]
+  .text               ro code  0x08056f60      0x4  startup_stm32f407xx.o [1]
+  .text               ro code  0x08056f64      0x4  startup_stm32f407xx.o [1]
+  .text               ro code  0x08056f68      0x4  startup_stm32f407xx.o [1]
+  .text               ro code  0x08056f6c      0x4  startup_stm32f407xx.o [1]
+  .text               ro code  0x08056f70      0x4  startup_stm32f407xx.o [1]
+  .text               ro code  0x08056f74      0x4  startup_stm32f407xx.o [1]
+  .text               ro code  0x08056f78      0x4  startup_stm32f407xx.o [1]
+  .text               ro code  0x08056f7c      0x4  startup_stm32f407xx.o [1]
+  .text               ro code  0x08056f80      0x4  startup_stm32f407xx.o [1]
+  .text               ro code  0x08056f84      0x4  startup_stm32f407xx.o [1]
+  .text               ro code  0x08056f88      0x4  startup_stm32f407xx.o [1]
+  .text               ro code  0x08056f8c      0x4  startup_stm32f407xx.o [1]
+  .text               ro code  0x08056f90      0x4  startup_stm32f407xx.o [1]
+  .text               ro code  0x08056f94      0x4  startup_stm32f407xx.o [1]
+  .text               ro code  0x08056f98      0x4  startup_stm32f407xx.o [1]
+  .text               ro code  0x08056f9c      0x4  startup_stm32f407xx.o [1]
+  .text               ro code  0x08056fa0      0x4  startup_stm32f407xx.o [1]
+  .text               ro code  0x08056fa4      0x4  startup_stm32f407xx.o [1]
+  .text               ro code  0x08056fa8      0x4  startup_stm32f407xx.o [1]
+  .text               ro code  0x08056fac      0x4  startup_stm32f407xx.o [1]
+  .text               ro code  0x08056fb0      0x4  startup_stm32f407xx.o [1]
+  .text               ro code  0x08056fb4      0x4  startup_stm32f407xx.o [1]
+  .text               ro code  0x08056fb8      0x4  startup_stm32f407xx.o [1]
+  .text               ro code  0x08056fbc      0x4  startup_stm32f407xx.o [1]
+  .text               ro code  0x08056fc0      0x4  startup_stm32f407xx.o [1]
+  .text               ro code  0x08056fc4      0x4  startup_stm32f407xx.o [1]
+  .text               ro code  0x08056fc8      0x4  startup_stm32f407xx.o [1]
+  .text               ro code  0x08056fcc      0x4  startup_stm32f407xx.o [1]
+  .text               ro code  0x08056fd0      0x4  startup_stm32f407xx.o [1]
+  .text               ro code  0x08056fd4      0x4  startup_stm32f407xx.o [1]
+  .text               ro code  0x08056fd8      0x4  startup_stm32f407xx.o [1]
+  .text               ro code  0x08056fdc      0x4  startup_stm32f407xx.o [1]
+  .text               ro code  0x08056fe0      0x4  startup_stm32f407xx.o [1]
+  .text               ro code  0x08056fe4      0x4  startup_stm32f407xx.o [1]
+  .text               ro code  0x08056fe8      0x4  startup_stm32f407xx.o [1]
+  .text               ro code  0x08056fec      0x4  startup_stm32f407xx.o [1]
+  .text               ro code  0x08056ff0      0x4  startup_stm32f407xx.o [1]
+  .text               ro code  0x08056ff4      0x4  startup_stm32f407xx.o [1]
+  .text               ro code  0x08056ff8      0x4  startup_stm32f407xx.o [1]
+  .text               ro code  0x08056ffc      0x4  startup_stm32f407xx.o [1]
+  .text               ro code  0x08057000      0x4  startup_stm32f407xx.o [1]
+  .text               ro code  0x08057004      0x4  startup_stm32f407xx.o [1]
+  .text               ro code  0x08057008      0x4  startup_stm32f407xx.o [1]
+  .text               ro code  0x0805700c      0x4  startup_stm32f407xx.o [1]
+  .text               ro code  0x08057010      0x4  startup_stm32f407xx.o [1]
+  .text               ro code  0x08057014      0x4  startup_stm32f407xx.o [1]
+  .text               ro code  0x08057018      0x4  startup_stm32f407xx.o [1]
+  .text               ro code  0x0805701c      0x4  startup_stm32f407xx.o [1]
+  .text               ro code  0x08057020      0x4  startup_stm32f407xx.o [1]
+  .text               ro code  0x08057024      0x4  startup_stm32f407xx.o [1]
+  .text               ro code  0x08057028      0x4  startup_stm32f407xx.o [1]
+  .text               ro code  0x0805702c      0x4  startup_stm32f407xx.o [1]
+  .text               ro code  0x08057030      0x4  startup_stm32f407xx.o [1]
+  .text               ro code  0x08057034      0x4  startup_stm32f407xx.o [1]
+  .text               ro code  0x08057038      0x4  startup_stm32f407xx.o [1]
+  .text               ro code  0x0805703c      0x4  startup_stm32f407xx.o [1]
+  .rodata             const    0x08057040      0x0  zero_init3.o [5]
+  .rodata             const    0x08057040      0x0  lz77_init_single.o [5]
+  Initializer bytes   const    0x08057040    0x1d3  <for P2-1>
+                             - 0x08057213  0x5708b
+
+"P3":                                       0xe100
+  .ccmram             zero     0x10000000   0xe100  lv_port_disp.o [1]
+                             - 0x1000e100   0xe100
+
+"P2", part 1 of 3:                          0x5249
+  P2-1                         0x20000000   0x5249  <Init block>
+    .data             inited   0x20000000      0xc  lv_area.o [1]
+    .data             inited   0x2000000c     0x1c  lv_btnmatrix.o [1]
+    .data             inited   0x20000028     0x1c  lv_calendar.o [1]
+    .data             inited   0x20000044     0x30  lv_calendar_header_arrow.o [1]
+    .data             inited   0x20000074     0x48  lv_keyboard.o [1]
+    .data             inited   0x200000bc   0x5010  lv_mem.o [1]
+    .data             inited   0x200050cc      0x8  lv_style.o [1]
+    .data             inited   0x200050d4      0x8  lv_txt.o [1]
+    .data             inited   0x200050dc      0x4  lv_txt.o [1]
+    .data             inited   0x200050e0      0x4  lv_txt.o [1]
+    .data             inited   0x200050e4      0x4  lv_txt.o [1]
+    .data             inited   0x200050e8      0x4  lv_txt.o [1]
+    .data             inited   0x200050ec      0x4  lv_txt.o [1]
+    .data             inited   0x200050f0      0xc  port.o [1]
+    .data             inited   0x200050fc      0xc  stm32f4xx_hal.o [1]
+    .data             inited   0x20005108      0x4  system_stm32f4xx.o [1]
+    .data             inited   0x2000510c     0x10  ui.o [1]
+    .data             inited   0x2000511c     0x20  usbh_di_link.o [1]
+    __DLIB_PERTHREAD  inited   0x2000513c     0x88  localeconv.o [3]
+    __DLIB_PERTHREAD  inited   0x200051c4     0x74  setlocale.o [3]
+    .data             inited   0x20005238      0x6  lv_colorwheel.o [1]
+    .data             inited   0x2000523e      0xa  lv_port_mouse.o [1]
+    .data             inited   0x20005248      0x1  lv_obj_style.o [1]
+                             - 0x20005249   0x5249
+
+"P2", part 2 of 3:                          0x2500
+  CSTACK                       0x20005250   0x2000  <Block>
+    CSTACK            uninit   0x20005250   0x2000  <Block tail>
+  HEAP                         0x20007250    0x500  <Block>
+    HEAP              uninit   0x20007250    0x500  <Block tail>
+                             - 0x20007750   0x2500
+
+"P2", part 3 of 3:                          0x8ed4
+  .bss                zero     0x20007750   0x4000  di_link_send_data.o [1]
+  .bss                zero     0x2000b750   0x3c18  heap_4.o [1]
+  .bss                zero     0x2000f368    0x3d0  usb_host.o [1]
+  .bss                zero     0x2000f738    0x2c4  usbh_conf.o [1]
+  .bss                zero     0x2000f9fc    0x254  freertos.o [1]
+  .bss                zero     0x2000fc50    0x214  lv_gc.o [1]
+  .bss                zero     0x2000fe64    0x1d8  dlmalloc.o [3]
+  .bss                zero     0x2001003c    0x128  tasks.o [1]
+  .bss                zero     0x20010164    0x108  lv_draw_sw_letter.o [1]
+  .bss                zero     0x2001026c     0xfc  main.o [1]
+  .bss                zero     0x20010368     0xb0  ui.o [1]
+  .bss                zero     0x20010418     0x7c  lv_port_disp.o [1]
+  .bss                zero     0x20010494     0x48  lv_theme_default.o [1]
+  .bss                zero     0x200104dc     0x2c  lv_theme_default.o [1]
+  .bss                zero     0x20010508     0x28  lv_refr.o [1]
+  .bss                zero     0x20010530     0x24  lv_port_mouse.o [1]
+  .bss                zero     0x20010554     0x18  dlmalloc.o [3]
+  .bss                zero     0x2001056c     0x16  lv_grid.o [1]
+  .bss                zero     0x20010582      0x2  lv_win.o [1]
+  .bss                zero     0x20010584     0x14  lv_timer.o [1]
+  .bss                zero     0x20010598      0xc  lv_anim.o [1]
+  .bss                zero     0x200105a4      0xc  lv_draw_sw_gradient.o [1]
+  .bss                zero     0x200105b0      0xc  lv_flex.o [1]
+  .bss                zero     0x200105bc      0xc  lv_tileview.o [1]
+  .bss                zero     0x200105c8      0x8  lv_font_montserrat_14.o [1]
+  .bss                zero     0x200105d0      0x8  lv_font_montserrat_20.o [1]
+  .bss                zero     0x200105d8      0x8  lv_font_montserrat_28.o [1]
+  .bss                zero     0x200105e0      0x8  lv_hal_tick.o [1]
+  .bss                zero     0x200105e8      0x8  lv_indev.o [1]
+  .bss                zero     0x200105f0      0x8  lv_spinner.o [1]
+  .bss                zero     0x200105f8      0x4  lv_event.o [1]
+  .bss                zero     0x200105fc      0x4  lv_group.o [1]
+  .bss                zero     0x20010600      0x4  lv_hal_disp.o [1]
+  .bss                zero     0x20010604      0x4  lv_obj.o [1]
+  .bss                zero     0x20010608      0x4  lv_obj_pos.o [1]
+  .bss                zero     0x2001060c      0x4  lv_tabview.o [1]
+  .bss                zero     0x20010610      0x4  lv_textarea.o [1]
+  .bss                zero     0x20010614      0x4  stm32f4xx_ll_usb.o [1]
+  .bss                zero     0x20010618      0x4  xgetmemchunk.o [3]
+  .bss                zero     0x2001061c      0x1  lis302dl_hal.o [1]
+  .bss                zero     0x2001061d      0x1  lv_colorwheel.o [1]
+  .bss                zero     0x2001061e      0x1  lv_obj.o [1]
+  .bss                zero     0x2001061f      0x1  lv_obj_pos.o [1]
+  .bss                zero     0x20010620      0x1  main.o [1]
+  .bss                zero     0x20010621      0x1  usb_host.o [1]
+                             - 0x20010622   0x8ed2
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    2 destination ranges, total size 0x16fd2:
+          0x10000000  0xe100
+          0x20007750  0x8ed2
+
+Copy/lz77 (__iar_lz77_init_single3)
+    1 source range, total size 0x1d3 (2% of destination):
+          0x08057040   0x1d3
+    1 destination range, total size 0x5249:
+          0x20000000  0x5249
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                         ro code  ro data  rw data
+    ------                         -------  -------  -------
+D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj: [1]
+    cmsis_os.o                         408
+    cursor_icon.o                               832
+    di_link_send_data.o              1 116            16 384
+    freertos.o                          20               596
+    heap_4.o                           532            15 384
+    lis302dl_hal.o                     468                 1
+    list.o                             182
+    lv_anim.o                        1 072                12
+    lv_arc.o                         3 326
+    lv_area.o                        1 354                12
+    lv_bar.o                         2 272
+    lv_btn.o                            76
+    lv_btnmatrix.o                   4 312       45       28
+    lv_calendar.o                    1 268       29       28
+    lv_calendar_header_arrow.o         436      109       48
+    lv_calendar_header_dropdown.o      996
+    lv_chart.o                       9 168
+    lv_checkbox.o                      896
+    lv_color.o                       1 124
+    lv_colorwheel.o                  2 628                 7
+    lv_disp.o                          498
+    lv_draw.o                           12
+    lv_draw_arc.o                    1 020
+    lv_draw_img.o                      864
+    lv_draw_label.o                  1 876
+    lv_draw_layer.o                    206
+    lv_draw_line.o                      52
+    lv_draw_mask.o                   5 486
+    lv_draw_rect.o                     142
+    lv_draw_sw.o                       248
+    lv_draw_sw_arc.o                 2 908
+    lv_draw_sw_blend.o               3 590
+    lv_draw_sw_gradient.o            1 146                12
+    lv_draw_sw_img.o                 1 452
+    lv_draw_sw_layer.o                 492
+    lv_draw_sw_letter.o              1 432               264
+    lv_draw_sw_line.o                2 020
+    lv_draw_sw_polygon.o             1 072
+    lv_draw_sw_rect.o                8 232
+    lv_draw_sw_transform.o           1 780
+    lv_draw_transform.o                 48
+    lv_dropdown.o                    4 204
+    lv_event.o                         856                 4
+    lv_extra.o                          18
+    lv_flex.o                        3 124                12
+    lv_font.o                          208
+    lv_font_fmt_txt.o                  612
+    lv_font_montserrat_14.o                  13 640        8
+    lv_font_montserrat_20.o                  21 796        8
+    lv_font_montserrat_28.o                  37 292        8
+    lv_fs.o                            824
+    lv_gc.o                                              532
+    lv_grid.o                        3 422                22
+    lv_group.o                       1 106                 4
+    lv_hal_disp.o                      568                 4
+    lv_hal_indev.o                     206
+    lv_hal_tick.o                       52                 8
+    lv_img.o                         2 252
+    lv_img_buf.o                       272
+    lv_img_cache.o                      90
+    lv_img_decoder.o                 2 248
+    lv_indev.o                       3 936                 8
+    lv_indev_scroll.o                3 554
+    lv_keyboard.o                      868    1 122       72
+    lv_label.o                       4 744
+    lv_led.o                           776
+    lv_line.o                          452
+    lv_list.o                           84
+    lv_ll.o                            314
+    lv_math.o                          600
+    lv_mem.o                         2 950      454   20 496
+    lv_menu.o                        1 292
+    lv_meter.o                       3 428
+    lv_msgbox.o                        724
+    lv_obj.o                         3 504                 5
+    lv_obj_class.o                     586
+    lv_obj_draw.o                    1 850
+    lv_obj_pos.o                     8 088                 5
+    lv_obj_scroll.o                  5 020
+    lv_obj_style.o                   5 848        1        1
+    lv_obj_style_gen.o                 232
+    lv_obj_tree.o                    1 498
+    lv_port_disp.o                     180            57 724
+    lv_port_mouse.o                    300                46
+    lv_printf.o                      1 832
+    lv_refr.o                        4 756                40
+    lv_roller.o                      3 344
+    lv_slider.o                      2 240
+    lv_spinbox.o                     1 152
+    lv_spinner.o                       168                 8
+    lv_style.o                       1 968                 8
+    lv_style_gen.o                     488
+    lv_switch.o                        848
+    lv_table.o                       2 670
+    lv_tabview.o                       888                 4
+    lv_textarea.o                    4 300                 4
+    lv_theme.o                         150
+    lv_theme_default.o              17 220       24      116
+    lv_tileview.o                      412                12
+    lv_timer.o                         476                20
+    lv_tlsf.o                        2 832
+    lv_txt.o                         2 232        1       28
+    lv_utils.o                          74
+    lv_win.o                           148                 2
+    main.o                           1 112       24      253
+    port.o                             616                12
+    portasm.o                          176
+    queue.o                          2 116
+    startup_stm32f407xx.o              728
+    stm32f4xx_hal.o                    188                12
+    stm32f4xx_hal_cortex.o             188
+    stm32f4xx_hal_gpio.o               468
+    stm32f4xx_hal_hcd.o              2 200
+    stm32f4xx_hal_i2c.o                348
+    stm32f4xx_hal_i2s.o                630
+    stm32f4xx_hal_i2s_ex.o             624
+    stm32f4xx_hal_msp.o                428
+    stm32f4xx_hal_rcc.o              1 276
+    stm32f4xx_hal_rcc_ex.o             384
+    stm32f4xx_hal_spi.o              1 848
+    stm32f4xx_it.o                      56
+    stm32f4xx_ll_usb.o               1 668                 4
+    system_stm32f4xx.o                  44        8        4
+    tasks.o                          2 500               296
+    ui.o                             4 296       21      192
+    ui_helpers.o                        22
+    ui_img_broken_clouds_png.o               18 492
+    ui_img_few_clouds_png.o                  18 492
+    ui_img_rain_png.o                        18 492
+    usb_host.o                          96               977
+    usbh_conf.o                        600               708
+    usbh_core.o                      1 744       12
+    usbh_ctlreq.o                    1 594
+    usbh_di_link.o                     680       13       32
+    usbh_ioreq.o                       152
+    usbh_pipes.o                       148
+    usbh_platform.o                     20
+    --------------------------------------------------------
+    Total:                         212 268  130 899  114 475
+
+command line: [2]
+    --------------------------------------------------------
+    Total:
+
+dl7M_tlf.a: [3]
+    abort.o                              6
+    div.o                               14
+    dlmalloc.o                       5 360               496
+    exit.o                               4
+    localeconv.o                       108        3      136
+    low_level_init.o                     4
+    setlocale.o                         20        2      116
+    sprintf.o                           52
+    xencoding_sb.o                      96
+    xgetmemchunk.o                      44                 4
+    xmbcurmax.o                         10
+    xmbtowc.o                           32
+    xprintffull.o                    4 454
+    xsprout.o                           10
+    xtls.o                               2
+    xwctomb.o                           26
+    --------------------------------------------------------
+    Total:                          10 242        5      752
+
+m7M_tls.a: [4]
+    DblAdd.o                           212
+    DblCmpGe.o                          46
+    DblCmpLe.o                          46
+    DblDiv.o                           598
+    DblMul.o                           418
+    DblSub.o                           384
+    DblToI32.o                          88
+    I32ToDbl.o                          48
+    fpinit_M.o                          34
+    xdnorm.o                            66
+    xdscale.o                          276
+    --------------------------------------------------------
+    Total:                           2 216
+
+rt7M_tl.a: [5]
+    ABImemclr.o                          6
+    ABImemclr4.o                         6
+    ABImemcpy_unaligned.o              118
+    ABImemset.o                        102
+    ABImemset48.o                       58
+    I64DivMod.o                        238
+    I64DivZer.o                          2
+    cexit.o                             10
+    cmain.o                             26
+    cstartup_M.o                        12
+    data_init.o                         40
+    lz77_init_single.o                 118
+    memchr.o                            88
+    strchr.o                            22
+    strcmp_unaligned.o                  66
+    strcpy_unaligned.o                  68
+    strlen.o                            54
+    zero_init3.o                        64
+    --------------------------------------------------------
+    Total:                           1 098
+
+shb_l.a: [6]
+    exit.o                              20
+    --------------------------------------------------------
+    Total:                              20
+
+    Gaps                                89        6
+    Linker created                               40    9 472
+------------------------------------------------------------
+    Grand Total:                   225 933  130 950  124 699
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address    Size  Type      Object
+-----                      -------    ----  ----      ------
+.iar.init_table$$Base   0x08056e0c           --   Gb  - Linker created -
+.iar.init_table$$Limit  0x08056e34           --   Gb  - Linker created -
+?main                   0x08056e51          Code  Gb  cmain.o [5]
+AHBPrescTable           0x08056db0    0x10  Data  Gb  system_stm32f4xx.o [1]
+APBPrescTable           0x08056ef8     0x8  Data  Gb  system_stm32f4xx.o [1]
+AccelerometerFound      0x2001061c     0x1  Data  Gb  lis302dl_hal.o [1]
+AccelerometerInit       0x0805007d    0x76  Code  Gb  lis302dl_hal.o [1]
+AccelerometerReadAxes   0x080500f3    0xb4  Code  Gb  lis302dl_hal.o [1]
+AccelerometerReadSPI    0x080501a7    0x52  Code  Gb  lis302dl_hal.o [1]
+AccelerometerWriteSPI   0x080501f9    0x4a  Code  Gb  lis302dl_hal.o [1]
+Appli_state             0x20010621     0x1  Data  Gb  usb_host.o [1]
+BusFault_Handler        0x08056d33     0x2  Code  Gb  stm32f4xx_it.o [1]
+CSTACK$$Base            0x20005250           --   Gb  - Linker created -
+CSTACK$$Limit           0x20007250           --   Gb  - Linker created -
+DI_LINK_Class           0x2000511c    0x20  Data  Gb  usbh_di_link.o [1]
+DI_LINK_DrawRLEImage16bit
+                        0x0805156d    0xf8  Code  Gb  di_link_send_data.o [1]
+DI_LINK_ProcessTransmission
+                        0x080519f9    0x9a  Code  Lc  usbh_di_link.o [1]
+DeInitStateMachine      0x0804dfab    0x4c  Code  Lc  usbh_core.o [1]
+DebugMon_Handler        0x08056d37     0x2  Code  Gb  stm32f4xx_it.o [1]
+Error_Handler           0x0804e9dd     0x4  Code  Gb  main.o [1]
+HAL_Delay               0x0804eaf5    0x26  Code  Wk  stm32f4xx_hal.o [1]
+HAL_GPIO_Init           0x0804dca1   0x19e  Code  Gb  stm32f4xx_hal_gpio.o [1]
+HAL_GPIO_WritePin       0x0804de3f     0x8  Code  Gb  stm32f4xx_hal_gpio.o [1]
+HAL_GetTick             0x0804eaed     0x6  Code  Wk  stm32f4xx_hal.o [1]
+HAL_HCD_Connect_Callback
+                        0x0804d45d     0x8  Code  Gb  usbh_conf.o [1]
+HAL_HCD_Disconnect_Callback
+                        0x0804d465     0x8  Code  Gb  usbh_conf.o [1]
+HAL_HCD_GetCurrentFrame
+                        0x0804cee3     0x6  Code  Gb  stm32f4xx_hal_hcd.o [1]
+HAL_HCD_GetCurrentSpeed
+                        0x0804cee9     0x6  Code  Gb  stm32f4xx_hal_hcd.o [1]
+HAL_HCD_HC_GetURBState  0x0804ced5     0xe  Code  Gb  stm32f4xx_hal_hcd.o [1]
+HAL_HCD_HC_Halt         0x0804cc11    0x24  Code  Gb  stm32f4xx_hal_hcd.o [1]
+HAL_HCD_HC_Init         0x0804cb9d    0x74  Code  Gb  stm32f4xx_hal_hcd.o [1]
+HAL_HCD_HC_NotifyURBChange_Callback
+                        0x0804d46d     0x8  Code  Gb  usbh_conf.o [1]
+HAL_HCD_HC_SubmitRequest
+                        0x0804cc35    0x8e  Code  Gb  stm32f4xx_hal_hcd.o [1]
+HAL_HCD_IRQHandler      0x0804ccc5   0x1ba  Code  Gb  stm32f4xx_hal_hcd.o [1]
+HAL_HCD_Init            0x0804cb2d    0x70  Code  Gb  stm32f4xx_hal_hcd.o [1]
+HAL_HCD_MspInit         0x0804d3c5    0x90  Code  Gb  usbh_conf.o [1]
+HAL_HCD_PortDisabled_Callback
+                        0x0804d47d     0x8  Code  Gb  usbh_conf.o [1]
+HAL_HCD_PortEnabled_Callback
+                        0x0804d475     0x8  Code  Gb  usbh_conf.o [1]
+HAL_HCD_ResetPort       0x0804cecf     0x6  Code  Gb  stm32f4xx_hal_hcd.o [1]
+HAL_HCD_SOF_Callback    0x0804d455     0x8  Code  Gb  usbh_conf.o [1]
+HAL_HCD_Start           0x0804ce7f    0x2c  Code  Gb  stm32f4xx_hal_hcd.o [1]
+HAL_HCD_Stop            0x0804ceab    0x24  Code  Gb  stm32f4xx_hal_hcd.o [1]
+HAL_I2C_Init            0x0804f391   0x142  Code  Gb  stm32f4xx_hal_i2c.o [1]
+HAL_I2C_MspInit         0x0805096b    0x64  Code  Gb  stm32f4xx_hal_msp.o [1]
+HAL_I2SEx_FullDuplex_IRQHandler
+                        0x08056089   0x262  Code  Gb  stm32f4xx_hal_i2s_ex.o [1]
+HAL_I2SEx_TxRxCpltCallback
+                        0x080562eb     0x2  Code  Wk  stm32f4xx_hal_i2s_ex.o [1]
+HAL_I2S_ErrorCallback   0x0804f65d     0x2  Code  Wk  stm32f4xx_hal_i2s.o [1]
+HAL_I2S_Init            0x0804f4ed   0x15c  Code  Gb  stm32f4xx_hal_i2s.o [1]
+HAL_I2S_MspInit         0x080509cf    0x8c  Code  Gb  stm32f4xx_hal_msp.o [1]
+HAL_I2S_RxCpltCallback  0x0804f65b     0x2  Code  Wk  stm32f4xx_hal_i2s.o [1]
+HAL_I2S_TxCpltCallback  0x0804f659     0x2  Code  Wk  stm32f4xx_hal_i2s.o [1]
+HAL_IncTick             0x0804eadf     0xe  Code  Wk  stm32f4xx_hal.o [1]
+HAL_Init                0x0804ea6d    0x34  Code  Gb  stm32f4xx_hal.o [1]
+HAL_InitTick            0x0804eaa1    0x3e  Code  Wk  stm32f4xx_hal.o [1]
+HAL_MspInit             0x0805092d    0x3e  Code  Gb  stm32f4xx_hal_msp.o [1]
+HAL_NVIC_EnableIRQ      0x0804dee1    0x16  Code  Gb  stm32f4xx_hal_cortex.o [1]
+HAL_NVIC_SetPriority    0x0804de8f    0x52  Code  Gb  stm32f4xx_hal_cortex.o [1]
+HAL_NVIC_SetPriorityGrouping
+                        0x0804de75    0x1a  Code  Gb  stm32f4xx_hal_cortex.o [1]
+HAL_RCCEx_GetPeriphCLKFreq
+                        0x08050873    0x3c  Code  Gb  stm32f4xx_hal_rcc_ex.o [1]
+HAL_RCCEx_PeriphCLKConfig
+                        0x0805074d   0x126  Code  Gb  stm32f4xx_hal_rcc_ex.o [1]
+HAL_RCC_ClockConfig     0x080505a5   0x11c  Code  Gb  stm32f4xx_hal_rcc.o [1]
+HAL_RCC_GetPCLK1Freq    0x0805070b    0x14  Code  Gb  stm32f4xx_hal_rcc.o [1]
+HAL_RCC_GetSysClockFreq
+                        0x080506c1    0x4a  Code  Wk  stm32f4xx_hal_rcc.o [1]
+HAL_RCC_OscConfig       0x08050251   0x354  Code  Wk  stm32f4xx_hal_rcc.o [1]
+HAL_SPI_Init            0x0804f765    0x80  Code  Gb  stm32f4xx_hal_spi.o [1]
+HAL_SPI_MspInit         0x08050a5b    0x5e  Code  Gb  stm32f4xx_hal_msp.o [1]
+HAL_SPI_Receive         0x0804f9e9   0x224  Code  Gb  stm32f4xx_hal_spi.o [1]
+HAL_SPI_Transmit        0x0804f7e5   0x204  Code  Gb  stm32f4xx_hal_spi.o [1]
+HAL_SPI_TransmitReceive
+                        0x0804fc0d   0x288  Code  Gb  stm32f4xx_hal_spi.o [1]
+HAL_SYSTICK_Config      0x0804def7    0x22  Code  Gb  stm32f4xx_hal_cortex.o [1]
+HCD_HC_IN_IRQHandler    0x0804ceef   0x230  Code  Lc  stm32f4xx_hal_hcd.o [1]
+HCD_HC_OUT_IRQHandler   0x0804d11f   0x234  Code  Lc  stm32f4xx_hal_hcd.o [1]
+HCD_RXQLVL_IRQHandler   0x0804d353    0x6c  Code  Lc  stm32f4xx_hal_hcd.o [1]
+HEAP$$Base              0x20007250           --   Gb  - Linker created -
+HEAP$$Limit             0x20007750           --   Gb  - Linker created -
+HardFault_Handler       0x08056d2f     0x2  Code  Gb  stm32f4xx_it.o [1]
+I2S_IRQHandler          0x0804f661   0x102  Code  Lc  stm32f4xx_hal_i2s.o [1]
+LVGLTaskHandle          0x20010364     0x4  Data  Gb  main.o [1]
+LVGL_TaskHandler        0x0804e945    0x40  Code  Gb  main.o [1]
+LV_LAYOUT_FLEX          0x200105b0     0x2  Data  Gb  lv_flex.o [1]
+LV_LAYOUT_GRID          0x2001056c     0x2  Data  Gb  lv_grid.o [1]
+LV_STYLE_FLEX_CROSS_PLACE
+                        0x200105b6     0x2  Data  Gb  lv_flex.o [1]
+LV_STYLE_FLEX_FLOW      0x200105b2     0x2  Data  Gb  lv_flex.o [1]
+LV_STYLE_FLEX_GROW      0x200105ba     0x2  Data  Gb  lv_flex.o [1]
+LV_STYLE_FLEX_MAIN_PLACE
+                        0x200105b4     0x2  Data  Gb  lv_flex.o [1]
+LV_STYLE_FLEX_TRACK_PLACE
+                        0x200105b8     0x2  Data  Gb  lv_flex.o [1]
+LV_STYLE_GRID_CELL_COLUMN_POS
+                        0x20010576     0x2  Data  Gb  lv_grid.o [1]
+LV_STYLE_GRID_CELL_COLUMN_SPAN
+                        0x20010578     0x2  Data  Gb  lv_grid.o [1]
+LV_STYLE_GRID_CELL_ROW_POS
+                        0x2001057c     0x2  Data  Gb  lv_grid.o [1]
+LV_STYLE_GRID_CELL_ROW_SPAN
+                        0x2001057e     0x2  Data  Gb  lv_grid.o [1]
+LV_STYLE_GRID_CELL_X_ALIGN
+                        0x2001057a     0x2  Data  Gb  lv_grid.o [1]
+LV_STYLE_GRID_CELL_Y_ALIGN
+                        0x20010580     0x2  Data  Gb  lv_grid.o [1]
+LV_STYLE_GRID_COLUMN_ALIGN
+                        0x20010570     0x2  Data  Gb  lv_grid.o [1]
+LV_STYLE_GRID_COLUMN_DSC_ARRAY
+                        0x2001056e     0x2  Data  Gb  lv_grid.o [1]
+LV_STYLE_GRID_ROW_ALIGN
+                        0x20010574     0x2  Data  Gb  lv_grid.o [1]
+LV_STYLE_GRID_ROW_DSC_ARRAY
+                        0x20010572     0x2  Data  Gb  lv_grid.o [1]
+LoadInt                 0x0803f68b    0x6e  Code  Lc  xprintffull.o [3]
+MX_DriverVbusFS         0x0804ea59    0x14  Code  Gb  usbh_platform.o [1]
+MX_GPIO_Init            0x0804e7cb   0x17a  Code  Lc  main.o [1]
+MX_USB_HOST_Init        0x080508cd    0x38  Code  Gb  usb_host.o [1]
+MemManage_Handler       0x08056d31     0x2  Code  Gb  stm32f4xx_it.o [1]
+NMI_Handler             0x08056d2d     0x2  Code  Gb  stm32f4xx_it.o [1]
+OTG_FS_IRQHandler       0x08056d59     0x6  Code  Gb  stm32f4xx_it.o [1]
+PendSV_Handler          0x0804ca7d          Code  Gb  portasm.o [1]
+Region$$Table$$Base     0x08056e0c           --   Gb  - Linker created -
+Region$$Table$$Limit    0x08056e34           --   Gb  - Linker created -
+SVC_Handler             0x0804cad5          Code  Gb  portasm.o [1]
+StartDefaultTask        0x0804e9c9    0x14  Code  Gb  main.o [1]
+SysTick_Handler         0x08056d39    0x20  Code  Gb  stm32f4xx_it.o [1]
+SystemClock_Config      0x0804e6fd    0xce  Code  Gb  main.o [1]
+SystemCoreClock         0x20005108     0x4  Data  Gb  system_stm32f4xx.o [1]
+SystemInit              0x08056d95    0x16  Code  Gb  system_stm32f4xx.o [1]
+USBH_AllocPipe          0x0804ece9    0x54  Code  Gb  usbh_pipes.o [1]
+USBH_BulkSendData       0x0805138b    0x2a  Code  Gb  usbh_ioreq.o [1]
+USBH_ClosePipe          0x0804ecdb     0xe  Code  Gb  usbh_pipes.o [1]
+USBH_ClrFeature         0x0804efb1    0x6e  Code  Gb  usbh_ctlreq.o [1]
+USBH_CtlReceiveData     0x0805136b    0x20  Code  Gb  usbh_ioreq.o [1]
+USBH_CtlReq             0x0804f12f    0x5c  Code  Gb  usbh_ctlreq.o [1]
+USBH_CtlSendData        0x08051341    0x2a  Code  Gb  usbh_ioreq.o [1]
+USBH_CtlSendSetup       0x0805131d    0x24  Code  Gb  usbh_ioreq.o [1]
+USBH_DI_LINK_ClassRequest
+                        0x080518df     0x4  Code  Lc  usbh_di_link.o [1]
+USBH_DI_LINK_InterfaceDeInit
+                        0x080518a3    0x3c  Code  Lc  usbh_di_link.o [1]
+USBH_DI_LINK_InterfaceInit
+                        0x08051811    0x92  Code  Lc  usbh_di_link.o [1]
+USBH_DI_LINK_Process    0x080518e5    0xda  Code  Lc  usbh_di_link.o [1]
+USBH_DI_LINK_SOFProcess
+                        0x080519bf     0x4  Code  Lc  usbh_di_link.o [1]
+USBH_DI_LINK_SendConfiguration
+                        0x080513b5   0x1b6  Code  Gb  di_link_send_data.o [1]
+USBH_DI_LINK_Transmit   0x080519c3    0x36  Code  Gb  usbh_di_link.o [1]
+USBH_DI_LINK_TransmitCallback
+                        0x08051a93    0x14  Code  Wk  usbh_di_link.o [1]
+USBH_Delay              0x0804d619     0x4  Code  Gb  usbh_conf.o [1]
+USBH_FindInterface      0x0804e02b    0x2c  Code  Gb  usbh_core.o [1]
+USBH_FreePipe           0x0804ed3d    0x18  Code  Gb  usbh_pipes.o [1]
+USBH_Get_CfgDesc        0x0804ed97    0x46  Code  Gb  usbh_ctlreq.o [1]
+USBH_Get_DevDesc        0x0804ed55    0x42  Code  Gb  usbh_ctlreq.o [1]
+USBH_Get_StringDesc     0x0804eddd    0x8a  Code  Gb  usbh_ctlreq.o [1]
+USBH_HandleControl      0x0804f18d   0x202  Code  Lc  usbh_ctlreq.o [1]
+USBH_HandleEnum         0x0804e2cd   0x21a  Code  Lc  usbh_core.o [1]
+USBH_Init               0x0804df31    0x7a  Code  Gb  usbh_core.o [1]
+USBH_LL_ClosePipe       0x0804d587    0x1e  Code  Gb  usbh_conf.o [1]
+USBH_LL_Connect         0x0804e527    0x2a  Code  Gb  usbh_core.o [1]
+USBH_LL_Disconnect      0x0804e551    0x40  Code  Gb  usbh_core.o [1]
+USBH_LL_DriverVBUS      0x0804d5db    0x1e  Code  Gb  usbh_conf.o [1]
+USBH_LL_GetSpeed        0x0804d521    0x1e  Code  Gb  usbh_conf.o [1]
+USBH_LL_GetURBState     0x0804d5d3     0x8  Code  Gb  usbh_conf.o [1]
+USBH_LL_IncTimer        0x0804e4ed    0x1e  Code  Gb  usbh_core.o [1]
+USBH_LL_Init            0x0804d485    0x52  Code  Gb  usbh_conf.o [1]
+USBH_LL_NotifyURBChange
+                        0x0804e5b9    0x1a  Code  Gb  usbh_core.o [1]
+USBH_LL_OpenPipe        0x0804d55d    0x2a  Code  Gb  usbh_conf.o [1]
+USBH_LL_PortDisabled    0x0804e51f     0x8  Code  Gb  usbh_core.o [1]
+USBH_LL_PortEnabled     0x0804e50b    0x14  Code  Gb  usbh_core.o [1]
+USBH_LL_ResetPort       0x0804d53f    0x1e  Code  Gb  usbh_conf.o [1]
+USBH_LL_SetTimer        0x0804e4e7     0x6  Code  Gb  usbh_core.o [1]
+USBH_LL_SetToggle       0x0804d5f9    0x20  Code  Gb  usbh_conf.o [1]
+USBH_LL_Start           0x0804d4e5    0x1e  Code  Gb  usbh_conf.o [1]
+USBH_LL_Stop            0x0804d503    0x1e  Code  Gb  usbh_conf.o [1]
+USBH_LL_SubmitURB       0x0804d5a5    0x2e  Code  Gb  usbh_conf.o [1]
+USBH_OpenPipe           0x0804ecc1    0x1a  Code  Gb  usbh_pipes.o [1]
+USBH_ParseCfgDesc       0x0804f077    0xb8  Code  Lc  usbh_ctlreq.o [1]
+USBH_ParseDevDesc       0x0804f01f    0x58  Code  Lc  usbh_ctlreq.o [1]
+USBH_Process            0x0804e06d   0x260  Code  Gb  usbh_core.o [1]
+USBH_Process_OS         0x0804e595    0x24  Code  Lc  usbh_core.o [1]
+USBH_RegisterClass      0x0804dff7    0x20  Code  Gb  usbh_core.o [1]
+USBH_SelectInterface    0x0804e017    0x14  Code  Gb  usbh_core.o [1]
+USBH_SetAddress         0x0804ee67    0x6e  Code  Gb  usbh_ctlreq.o [1]
+USBH_SetCfg             0x0804eed5    0x6e  Code  Gb  usbh_ctlreq.o [1]
+USBH_SetFeature         0x0804ef43    0x6e  Code  Gb  usbh_ctlreq.o [1]
+USBH_Start              0x0804e057    0x14  Code  Gb  usbh_core.o [1]
+USBH_UserProcess        0x08050905    0x1c  Code  Lc  usb_host.o [1]
+USB_CoreInit            0x0804d61d    0xb8  Code  Gb  stm32f4xx_ll_usb.o [1]
+USB_DisableGlobalInt    0x0804d6e1     0xc  Code  Gb  stm32f4xx_ll_usb.o [1]
+USB_DriveVbus           0x0804d8ed    0x46  Code  Gb  stm32f4xx_ll_usb.o [1]
+USB_EnableGlobalInt     0x0804d6d5     0xc  Code  Gb  stm32f4xx_ll_usb.o [1]
+USB_GetCurrentFrame     0x0804d94b     0xa  Code  Gb  stm32f4xx_ll_usb.o [1]
+USB_GetHostSpeed        0x0804d933    0x18  Code  Gb  stm32f4xx_ll_usb.o [1]
+USB_GetMode             0x0804d741     0x8  Code  Gb  stm32f4xx_ll_usb.o [1]
+USB_HC_Halt             0x0804db87    0x6c  Code  Gb  stm32f4xx_ll_usb.o [1]
+USB_HC_Init             0x0804d955    0xdc  Code  Gb  stm32f4xx_ll_usb.o [1]
+USB_HC_ReadInterrupt    0x0804db7d     0xa  Code  Gb  stm32f4xx_ll_usb.o [1]
+USB_HC_StartXfer        0x0804da31   0x14c  Code  Gb  stm32f4xx_ll_usb.o [1]
+USB_HostInit            0x0804d749   0x134  Code  Gb  stm32f4xx_ll_usb.o [1]
+USB_InitFSLSPClkSel     0x0804d885    0x2e  Code  Gb  stm32f4xx_ll_usb.o [1]
+USB_ReadInterrupts      0x0804d739     0x8  Code  Gb  stm32f4xx_ll_usb.o [1]
+USB_ReadPacket          0x0804d721    0x18  Code  Gb  stm32f4xx_ll_usb.o [1]
+USB_ResetPort           0x0804d8b3    0x3a  Code  Gb  stm32f4xx_ll_usb.o [1]
+USB_SetCurrentMode      0x0804d6ed    0x34  Code  Gb  stm32f4xx_ll_usb.o [1]
+USB_StopHost            0x0804dbf3    0x88  Code  Gb  stm32f4xx_ll_usb.o [1]
+UsageFault_Handler      0x08056d35     0x2  Code  Gb  stm32f4xx_it.o [1]
+_EncodingSb_Mbtowc      0x08040abf    0x30  Code  Gb  xencoding_sb.o [3]
+_EncodingSb_Wctomb      0x08040aa5    0x1a  Code  Gb  xencoding_sb.o [3]
+_GenldFull              0x0803ff0f   0x24c  Code  Lc  xprintffull.o [3]
+_IsdstStr               0x200051c8     0x4  Data  Gb  setlocale.o [3]
+_LdtobFull              0x0803fb0d   0x3fc  Code  Lc  xprintffull.o [3]
+_LitobFull              0x0803fa05   0x106  Code  Lc  xprintffull.o [3]
+_LocaleEncoding         0x08040a91     0xe  Code  Gb  setlocale.o [3]
+_LocaleReturnString     0x200051e8    0x50  Data  Lc  setlocale.o [3]
+_Locale_Profile         0x200051cc    0x1c  Data  Gb  setlocale.o [3]
+_Locale_aeabi_lconv     0x2000518c    0x38  Data  Gb  localeconv.o [3]
+_Locale_lconv           0x2000513c    0x50  Data  Gb  localeconv.o [3]
+_Mbtowc                 0x080401a3    0x20  Code  Gb  xmbtowc.o [3]
+_PrintfFull             0x0803f03d   0x638  Code  Gb  xprintffull.o [3]
+_PutcharsFull           0x0804015b    0x2e  Code  Lc  xprintffull.o [3]
+_PutstrFull             0x0803f6f9   0x306  Code  Lc  xprintffull.o [3]
+_SProut                 0x08022273     0xa  Code  Gb  xsprout.o [3]
+_TzoneStr               0x200051c4     0x4  Data  Gb  setlocale.o [3]
+_Wctomb                 0x0804023f    0x1a  Code  Gb  xwctomb.o [3]
+__aeabi_cdcmple         0x0804029d          Code  Gb  DblCmpLe.o [4]
+__aeabi_cdrcmple        0x080402cd          Code  Gb  DblCmpGe.o [4]
+__aeabi_d2iz            0x08040411          Code  Gb  DblToI32.o [4]
+__aeabi_d2uiz           0x0804043d          Code  Gb  DblToI32.o [4]
+__aeabi_ddiv            0x080407bd          Code  Gb  DblDiv.o [4]
+__aeabi_dmul            0x08040619          Code  Gb  DblMul.o [4]
+__aeabi_dsub            0x08040499          Code  Gb  DblSub.o [4]
+__aeabi_i2d             0x08040469          Code  Gb  I32ToDbl.o [4]
+__aeabi_ldiv0           0x08034f3d          Code  Gb  I64DivZer.o [5]
+__aeabi_memclr          0x08028e45          Code  Gb  ABImemclr.o [5]
+__aeabi_memclr4         0x08028e3d          Code  Gb  ABImemclr4.o [5]
+__aeabi_memset          0x08028e4d          Code  Gb  ABImemset.o [5]
+__aeabi_memset4         0x0802f075          Code  Gb  ABImemset48.o [5]
+__aeabi_memset8         0x0802f075          Code  Gb  ABImemset48.o [5]
+__aeabi_ui2d            0x0804047d          Code  Gb  I32ToDbl.o [4]
+__aeabi_uldivmod        0x08034e4d          Code  Gb  I64DivMod.o [5]
+__cmain                 0x08056e51          Code  Gb  cmain.o [5]
+__data_GetMemChunk      0x0803effd    0x2c  Code  Gb  xgetmemchunk.o [3]
+__exit                  0x0803f029    0x14  Code  Gb  exit.o [6]
+__iar_Dnorm             0x08040259    0x42  Code  Gb  xdnorm.o [4]
+__iar_Dscale            0x080402fd   0x114  Code  Gb  xdscale.o [4]
+__iar_Locale_lconv_init
+                        0x08040a15    0x3a  Code  Gb  localeconv.o [3]
+__iar_Mbcurmax          0x08040235     0xa  Code  Gb  xmbcurmax.o [3]
+__iar_Memchr            0x080401dd          Code  Gb  memchr.o [5]
+__iar_Memset            0x08028e4d          Code  Gb  ABImemset.o [5]
+__iar_Memset4_word      0x0802f07d          Code  Gb  ABImemset48.o [5]
+__iar_Memset8_word      0x0802f07d          Code  Gb  ABImemset48.o [5]
+__iar_Memset_word       0x08028e55          Code  Gb  ABImemset.o [5]
+__iar_Strchr            0x080401c5          Code  Gb  strchr.o [5]
+__iar_d2uiz             0x08040449          Code  Gb  DblToI32.o [4]
+__iar_dadd              0x08040b05          Code  Gb  DblAdd.o [4]
+__iar_data_init3        0x08056dc1    0x28  Code  Gb  data_init.o [5]
+__iar_dlfree            0x0803eadb   0x510  Code  Gb  dlmalloc.o [3]
+__iar_dlib_perthread_access
+                        0x08040bd9     0x2  Code  Gb  xtls.o [3]
+__iar_dlmalloc          0x0803e825   0x2aa  Code  Gb  dlmalloc.o [3]
+__iar_dsub              0x080404ad          Code  Gb  DblSub.o [4]
+__iar_dsubStart         0x080404bf          Code  Gb  DblSub.o [4]
+__iar_init_vfp          0x08056de9          Code  Gb  fpinit_M.o [4]
+__iar_lz77_init_single3
+                        0x0802200b    0x76  Code  Gb  lz77_init_single.o [5]
+__iar_program_start     0x08056eed          Code  Gb  cstartup_M.o [5]
+__iar_ui2d              0x08040481          Code  Gb  I32ToDbl.o [4]
+__iar_unaligned___aeabi_memcpy
+                        0x0802effd          Code  Gb  ABImemcpy_unaligned.o [5]
+__iar_unaligned___aeabi_memcpy4
+                        0x0802f01d          Code  Gb  ABImemcpy_unaligned.o [5]
+__iar_unaligned___aeabi_memcpy8
+                        0x0802f01d          Code  Gb  ABImemcpy_unaligned.o [5]
+__iar_unaligned_strcmp  0x08031a85          Code  Gb  strcmp_unaligned.o [5]
+__iar_unaligned_strcpy  0x08031a41          Code  Gb  strcpy_unaligned.o [5]
+__iar_zero_init3        0x08056ced    0x40  Code  Gb  zero_init3.o [5]
+__low_level_init        0x08056e6b     0x4  Code  Gb  low_level_init.o [3]
+__vector_table          0x08000000          Data  Gb  startup_stm32f407xx.o [1]
+_call_main              0x08056e5d          Code  Gb  cmain.o [5]
+_exit                   0x08056e75          Code  Gb  cexit.o [5]
+_gm_                    0x2000fe64   0x1d8  Data  Lc  dlmalloc.o [3]
+_lv_anim_core_init      0x08028eb5    0x4a  Code  Gb  lv_anim.o [1]
+_lv_anim_ll             0x2000fc80     0xc  Data  Gb  lv_gc.o [1]
+_lv_anim_tmr            0x200105a0     0x4  Data  Lc  lv_anim.o [1]
+_lv_area_intersect      0x0802d405    0x5e  Code  Gb  lv_area.o [1]
+_lv_area_is_in          0x0802d615    0xb0  Code  Gb  lv_area.o [1]
+_lv_area_is_on          0x0802d5dd    0x38  Code  Gb  lv_area.o [1]
+_lv_area_is_out         0x0802d6c5    0xae  Code  Gb  lv_area.o [1]
+_lv_area_is_point_on    0x0802d4a5   0x138  Code  Gb  lv_area.o [1]
+_lv_area_join           0x0802d463    0x42  Code  Gb  lv_area.o [1]
+_lv_bpp1_opa_table      0x080533ec     0x2  Data  Gb  lv_draw_sw_letter.o [1]
+_lv_bpp2_opa_table      0x080533f0     0x4  Data  Gb  lv_draw_sw_letter.o [1]
+_lv_bpp4_opa_table      0x080533f4    0x10  Data  Gb  lv_draw_sw_letter.o [1]
+_lv_bpp8_opa_table      0x08053404   0x100  Data  Gb  lv_draw_sw_letter.o [1]
+_lv_circle_cache        0x2000fd64    0x70  Data  Gb  lv_gc.o [1]
+_lv_disp_ll             0x2000fc5c     0xc  Data  Gb  lv_gc.o [1]
+_lv_disp_refr_timer     0x0802ba2b   0x2b8  Code  Gb  lv_refr.o [1]
+_lv_draw_mask_cleanup   0x0802dad9    0x50  Code  Gb  lv_draw_mask.o [1]
+_lv_draw_mask_list      0x2000fdd4    0x80  Data  Gb  lv_gc.o [1]
+_lv_event_mark_deleted  0x08029419    0x22  Code  Gb  lv_event.o [1]
+_lv_font_clean_up_fmt_txt
+                        0x0803053f     0x2  Code  Gb  lv_font_fmt_txt.o [1]
+_lv_fs_init             0x0802b08d     0xa  Code  Gb  lv_fs.o [1]
+_lv_fsdrv_ll            0x2000fc74     0xc  Data  Gb  lv_gc.o [1]
+_lv_grad_cache_mem      0x2000fe5c     0x4  Data  Gb  lv_gc.o [1]
+_lv_group_init          0x0802b3c5     0xa  Code  Gb  lv_group.o [1]
+_lv_group_ll            0x2000fc8c     0xc  Data  Gb  lv_gc.o [1]
+_lv_img_buf_get_transformed_area
+                        0x08033c0d   0x110  Code  Gb  lv_img_buf.o [1]
+_lv_img_cache_open      0x08033bb1    0x52  Code  Gb  lv_img_cache.o [1]
+_lv_img_cache_single    0x2000fcb4    0x2c  Data  Gb  lv_gc.o [1]
+_lv_img_decoder_init    0x0802cab9    0x3a  Code  Gb  lv_img_decoder.o [1]
+_lv_img_decoder_ll      0x2000fc98     0xc  Data  Gb  lv_gc.o [1]
+_lv_indev_ll            0x2000fc68     0xc  Data  Gb  lv_gc.o [1]
+_lv_indev_read          0x08029e99    0x46  Code  Gb  lv_hal_indev.o [1]
+_lv_indev_scroll_handler
+                        0x0802f669   0x30a  Code  Gb  lv_indev_scroll.o [1]
+_lv_indev_scroll_throw_handler
+                        0x0802f973   0x488  Code  Gb  lv_indev_scroll.o [1]
+_lv_inv_area            0x0802b91b   0x108  Code  Gb  lv_refr.o [1]
+_lv_layout_list         0x2000fcb0     0x4  Data  Gb  lv_gc.o [1]
+_lv_ll_clear            0x08024d8f    0x26  Code  Gb  lv_ll.o [1]
+_lv_ll_get_head         0x08024db5     0x6  Code  Gb  lv_ll.o [1]
+_lv_ll_get_len          0x08024dcf    0x36  Code  Gb  lv_ll.o [1]
+_lv_ll_get_next         0x08024dc1     0x8  Code  Gb  lv_ll.o [1]
+_lv_ll_get_prev         0x08024dc9     0x6  Code  Gb  lv_ll.o [1]
+_lv_ll_get_tail         0x08024dbb     0x6  Code  Gb  lv_ll.o [1]
+_lv_ll_init             0x08024ce1    0x10  Code  Gb  lv_ll.o [1]
+_lv_ll_ins_head         0x08024cf1    0x2a  Code  Gb  lv_ll.o [1]
+_lv_ll_ins_tail         0x08024d1b    0x2c  Code  Gb  lv_ll.o [1]
+_lv_ll_is_empty         0x08024e05    0x16  Code  Gb  lv_ll.o [1]
+_lv_ll_remove           0x08024d47    0x48  Code  Gb  lv_ll.o [1]
+_lv_obj_destruct        0x0802affd    0x1e  Code  Gb  lv_obj_class.o [1]
+_lv_obj_get_ext_draw_size
+                        0x08029dfb     0xa  Code  Gb  lv_obj_draw.o [1]
+_lv_obj_get_layer_type  0x08029e05     0xa  Code  Gb  lv_obj_draw.o [1]
+_lv_obj_style_apply_color_filter
+                        0x08022d95    0xc6  Code  Gb  lv_obj_style.o [1]
+_lv_obj_style_create_transition
+                        0x08022aad   0x2da  Code  Gb  lv_obj_style.o [1]
+_lv_obj_style_init      0x080222b7     0xa  Code  Gb  lv_obj_style.o [1]
+_lv_obj_style_state_compare
+                        0x08022e5b   0x202  Code  Gb  lv_obj_style.o [1]
+_lv_obj_style_trans_ll  0x2000fca4     0xc  Data  Gb  lv_gc.o [1]
+_lv_refr_get_disp_refreshing
+                        0x0802ba23     0x8  Code  Gb  lv_refr.o [1]
+_lv_refr_init           0x0802b825    0x18  Code  Gb  lv_refr.o [1]
+_lv_style_builtin_prop_flag_lookup_table
+                        0x08020ff4    0x70  Data  Gb  lv_style.o [1]
+_lv_style_custom_prop_flag_lookup_table
+                        0x2000fe60     0x4  Data  Gb  lv_gc.o [1]
+_lv_style_custom_prop_flag_lookup_table_size
+                        0x200050d0     0x4  Data  Gb  lv_style.o [1]
+_lv_style_get_prop_group
+                        0x08020e9d     0xc  Code  Gb  lv_style.o [1]
+_lv_style_prop_lookup_flags
+                        0x08020ea9    0x36  Code  Gb  lv_style.o [1]
+_lv_theme_basic_styles  0x2000fe58     0x4  Data  Gb  lv_gc.o [1]
+_lv_theme_default_styles
+                        0x2000fe54     0x4  Data  Gb  lv_gc.o [1]
+_lv_timer_act           0x2000fce0     0x4  Data  Gb  lv_gc.o [1]
+_lv_timer_core_init     0x08024e1d    0x16  Code  Gb  lv_timer.o [1]
+_lv_timer_ll            0x2000fc50     0xc  Data  Gb  lv_gc.o [1]
+_lv_txt_cut             0x080342d9    0x50  Code  Gb  lv_txt.o [1]
+_lv_txt_encoded_get_byte_id
+                        0x200050e4     0x4  Data  Gb  lv_txt.o [1]
+_lv_txt_encoded_get_char_id
+                        0x200050e8     0x4  Data  Gb  lv_txt.o [1]
+_lv_txt_encoded_letter_next_2
+                        0x08034363    0x28  Code  Gb  lv_txt.o [1]
+_lv_txt_encoded_next    0x200050d8     0x4  Data  Gb  lv_txt.o [1]
+_lv_txt_encoded_prev    0x200050e0     0x4  Data  Gb  lv_txt.o [1]
+_lv_txt_encoded_size    0x200050d4     0x4  Data  Gb  lv_txt.o [1]
+_lv_txt_get_encoded_length
+                        0x200050ec     0x4  Data  Gb  lv_txt.o [1]
+_lv_txt_get_next_line   0x08033ed3   0x298  Code  Gb  lv_txt.o [1]
+_lv_txt_ins             0x08034249    0x90  Code  Gb  lv_txt.o [1]
+_lv_txt_is_cmd          0x08034219    0x30  Code  Gb  lv_txt.o [1]
+_lv_txt_set_text_vfmt   0x08034329    0x3a  Code  Gb  lv_txt.o [1]
+_lv_txt_unicode_to_encoded
+                        0x200050dc     0x4  Data  Gb  lv_txt.o [1]
+_lv_utils_bsearch       0x08033d1d    0x4a  Code  Gb  lv_utils.o [1]
+_main                   0x08056e67          Code  Gb  cmain.o [5]
+_ntoa_format            0x0803472f   0x144  Code  Lc  lv_printf.o [1]
+_ntoa_long              0x08034875    0x80  Code  Lc  lv_printf.o [1]
+_ntoa_long_long         0x080348f5    0x92  Code  Lc  lv_printf.o [1]
+_out_buffer             0x08034725     0x8  Code  Lc  lv_printf.o [1]
+_out_null               0x0803472d     0x2  Code  Lc  lv_printf.o [1]
+_ui_bar_set_property    0x08044729    0x16  Code  Gb  ui_helpers.o [1]
+_vsnprintf              0x08034989   0x48a  Code  Lc  lv_printf.o [1]
+abort                   0x0803eff5     0x6  Code  Gb  abort.o [3]
+accelerometer_offset_x  0x20005242     0x2  Data  Gb  lv_port_mouse.o [1]
+accelerometer_offset_y  0x20005244     0x2  Data  Gb  lv_port_mouse.o [1]
+accelerometer_threshold
+                        0x20005246     0x2  Data  Gb  lv_port_mouse.o [1]
+allocate_btn_areas_and_controls
+                        0x080419a5    0x80  Code  Lc  lv_btnmatrix.o [1]
+allocate_item           0x0803d795   0x132  Code  Lc  lv_draw_sw_gradient.o [1]
+angle_to_mode_color_fast
+                        0x0804ba2d   0x11e  Code  Lc  lv_colorwheel.o [1]
+anim_list_changed       0x20010598     0x1  Data  Lc  lv_anim.o [1]
+anim_ready_handler      0x0802921d    0xc0  Code  Lc  lv_anim.o [1]
+anim_run_round          0x20010599     0x1  Data  Lc  lv_anim.o [1]
+anim_timer              0x0802913d    0xe0  Code  Lc  lv_anim.o [1]
+apply_theme             0x08029355    0x26  Code  Lc  lv_theme.o [1]
+arc_anim_end_angle      0x08056b75     0x6  Code  Lc  lv_spinner.o [1]
+arc_anim_start_angle    0x08056b6d     0x6  Code  Lc  lv_spinner.o [1]
+arc_length_param        0x200105f4     0x4  Data  Lc  lv_spinner.o [1]
+argb_and_rgb_aa         0x080526a1   0x2ec  Code  Lc  lv_draw_sw_transform.o [1]
+auto_hide_characters    0x08042d25    0x40  Code  Lc  lv_textarea.o [1]
+block_insert            0x08028777    0x76  Code  Lc  lv_tlsf.o [1]
+block_locate_free       0x0802885d    0xba  Code  Lc  lv_tlsf.o [1]
+block_prepare_used      0x08028917    0x82  Code  Lc  lv_tlsf.o [1]
+block_split             0x080287ed    0x70  Code  Lc  lv_tlsf.o [1]
+btnMsgBoxventHandler    0x08042df5    0x2e  Code  Lc  ui.o [1]
+btnTextBoxHandler       0x08042e55    0x58  Code  Lc  ui.o [1]
+btn_release_handler     0x08047fd3    0x8e  Code  Lc  lv_dropdown.o [1]
+btns_value_changed_event_cb
+                        0x080555f5    0x24  Code  Lc  lv_tabview.o [1]
+cache                   0x200105c8     0x8  Data  Lc  lv_font_montserrat_14.o [1]
+cache                   0x200105d0     0x8  Data  Lc  lv_font_montserrat_20.o [1]
+cache                   0x200105d8     0x8  Data  Lc  lv_font_montserrat_28.o [1]
+calc                    0x08032855   0x24a  Code  Lc  lv_grid.o [1]
+calc_cols               0x08032aa1   0x284  Code  Lc  lv_grid.o [1]
+calc_content_height     0x0802810b   0x122  Code  Lc  lv_obj_pos.o [1]
+calc_content_width      0x08027f09   0x202  Code  Lc  lv_obj_pos.o [1]
+calc_rows               0x08032d25   0x27c  Code  Lc  lv_grid.o [1]
+call_flush_cb           0x0802ca51    0x36  Code  Lc  lv_refr.o [1]
+circ_calc_aa4           0x0802eb8d   0x352  Code  Lc  lv_draw_mask.o [1]
+cmaps                   0x0803772c    0x28  Data  Lc  lv_font_montserrat_14.o [1]
+cmaps                   0x0800dafc    0x28  Data  Lc  lv_font_montserrat_20.o [1]
+cmaps                   0x080085d8    0x28  Data  Lc  lv_font_montserrat_28.o [1]
+color_blend_true_color_additive
+                        0x0803d4e1    0x92  Code  Lc  lv_draw_sw_blend.o [1]
+color_blend_true_color_multiply
+                        0x0803d601    0x86  Code  Lc  lv_draw_sw_blend.o [1]
+color_blend_true_color_subtractive
+                        0x0803d575    0x8c  Code  Lc  lv_draw_sw_blend.o [1]
+color_card              0x2001049c     0x4  Data  Lc  lv_theme_default.o [1]
+color_grey              0x200104a0     0x4  Data  Lc  lv_theme_default.o [1]
+color_scr               0x20010494     0x4  Data  Lc  lv_theme_default.o [1]
+color_text              0x20010498     0x4  Data  Lc  lv_theme_default.o [1]
+cont_scroll_end_event_cb
+                        0x08055619    0xba  Code  Lc  lv_tabview.o [1]
+convert_cb              0x08052d45   0x1f8  Code  Lc  lv_draw_sw_img.o [1]
+create_col_id           0x200105c0     0x4  Data  Lc  lv_tileview.o [1]
+create_dir              0x200105bc     0x1  Data  Lc  lv_tileview.o [1]
+create_header_height    0x20010582     0x2  Data  Lc  lv_win.o [1]
+create_knob_recolor     0x2001061d     0x1  Data  Lc  lv_colorwheel.o [1]
+create_row_id           0x200105c4     0x4  Data  Lc  lv_tileview.o [1]
+cur_used                0x200000c0     0x4  Data  Lc  lv_mem.o [1]
+cursor_blink_anim_cb    0x080425dd    0x7c  Code  Lc  lv_textarea.o [1]
+cursor_icon             0x08055d74     0xc  Data  Gb  cursor_icon.o [1]
+cursor_icon_map         0x08055a40   0x334  Data  Gb  cursor_icon.o [1]
+cursor_pos_x            0x2000523e     0x2  Data  Gb  lv_port_mouse.o [1]
+cursor_pos_y            0x20005240     0x2  Data  Gb  lv_port_mouse.o [1]
+dark_color_filter_cb    0x0801c145    0x12  Code  Lc  lv_theme_default.o [1]
+day_names_def           0x20000028    0x1c  Data  Lc  lv_calendar.o [1]
+decode_and_draw         0x0802f3e9   0x278  Code  Lc  lv_draw_img.o [1]
+defaultTaskHandle       0x20010360     0x4  Data  Gb  main.o [1]
+default_group           0x200105fc     0x4  Data  Lc  lv_group.o [1]
+default_kb_ctrl_lc_map  0x0805451c    0x50  Data  Lc  lv_keyboard.o [1]
+default_kb_ctrl_num_map
+                        0x080547c0    0x24  Data  Lc  lv_keyboard.o [1]
+default_kb_ctrl_spec_map
+                        0x0805471c    0x50  Data  Lc  lv_keyboard.o [1]
+default_kb_ctrl_uc_map  0x0805461c    0x50  Data  Lc  lv_keyboard.o [1]
+default_kb_map_lc       0x0805446c    0xb0  Data  Lc  lv_keyboard.o [1]
+default_kb_map_num      0x0805476c    0x54  Data  Lc  lv_keyboard.o [1]
+default_kb_map_spec     0x0805466c    0xb0  Data  Lc  lv_keyboard.o [1]
+default_kb_map_uc       0x0805456c    0xb0  Data  Lc  lv_keyboard.o [1]
+default_walker          0x08028999     0x2  Code  Lc  lv_tlsf.o [1]
+di_link_data_buf        0x20007750  0x4000  Data  Gb  di_link_send_data.o [1]
+disp_curr_fill_area     0x20010468     0x8  Data  Lc  lv_port_disp.o [1]
+disp_curr_fill_color_p  0x20010474     0x4  Data  Lc  lv_port_disp.o [1]
+disp_def                0x20010600     0x4  Data  Lc  lv_hal_disp.o [1]
+disp_drv                0x20010418    0x50  Data  Lc  lv_port_disp.o [1]
+disp_flush              0x0804fed9    0x1e  Code  Lc  lv_port_disp.o [1]
+disp_need_update        0x20010470     0x1  Data  Lc  lv_port_disp.o [1]
+disp_refr               0x2001052c     0x4  Data  Lc  lv_refr.o [1]
+disp_size               0x20010500     0x1  Data  Lc  lv_theme_default.o [1]
+disp_update_handler     0x0804fef7    0x4e  Code  Gb  lv_port_disp.o [1]
+div                     0x08040a81     0xe  Code  Gb  div.o [3]
+dl_register_init_640x480
+                        0x080517f0    0x20  Data  Gb  di_link_send_data.o [1]
+dlfb_compress_hline     0x08051669   0x186  Code  Lc  di_link_send_data.o [1]
+draw_arcs               0x08044ac1   0x132  Code  Lc  lv_meter.o [1]
+draw_bg                 0x0803a8a9   0x402  Code  Lc  lv_draw_sw_rect.o [1]
+draw_bg_img             0x0803acab   0x20c  Code  Lc  lv_draw_sw_rect.o [1]
+draw_border             0x0803aeb7   0x104  Code  Lc  lv_draw_sw_rect.o [1]
+draw_border_generic     0x0803c259   0x522  Code  Gb  lv_draw_sw_rect.o [1]
+draw_border_simple      0x0803c77b   0x106  Code  Lc  lv_draw_sw_rect.o [1]
+draw_buf_flush          0x0802c991    0xba  Code  Lc  lv_refr.o [1]
+draw_buf_rotate         0x0802c5ed   0x3a4  Code  Lc  lv_refr.o [1]
+draw_buf_rotate_90_sqr  0x0802c54d    0x9e  Code  Lc  lv_refr.o [1]
+draw_cursor             0x08042be3   0x142  Code  Lc  lv_textarea.o [1]
+draw_cursors            0x0803a181   0x3a4  Code  Lc  lv_chart.o [1]
+draw_disc_grad          0x0804b1fd   0x1c2  Code  Lc  lv_colorwheel.o [1]
+draw_div_lines          0x08039465   0x274  Code  Lc  lv_chart.o [1]
+draw_img                0x08045f43   0x47c  Code  Lc  lv_img.o [1]
+draw_indic              0x080440cd   0x534  Code  Lc  lv_bar.o [1]
+draw_knob               0x08046a09   0x2c0  Code  Lc  lv_slider.o [1]
+draw_label              0x08048917   0x12c  Code  Lc  lv_roller.o [1]
+draw_line_hor           0x08051c61   0x18e  Code  Lc  lv_draw_sw_line.o [1]
+draw_line_skew          0x08051f59   0x320  Code  Lc  lv_draw_sw_line.o [1]
+draw_line_ver           0x08051def   0x168  Code  Lc  lv_draw_sw_line.o [1]
+draw_list               0x08047a4b   0x588  Code  Lc  lv_dropdown.o [1]
+draw_main               0x080415d7   0x3b2  Code  Lc  lv_btnmatrix.o [1]
+draw_main               0x08047765   0x2e6  Code  Lc  lv_dropdown.o [1]
+draw_main               0x080310dd   0x278  Code  Lc  lv_label.o [1]
+draw_main               0x08048783   0x194  Code  Lc  lv_roller.o [1]
+draw_main               0x0805580b   0x186  Code  Lc  lv_switch.o [1]
+draw_main               0x0804a951   0x4c8  Code  Lc  lv_table.o [1]
+draw_needles            0x08045045   0x1fc  Code  Lc  lv_meter.o [1]
+draw_outline            0x0803c17f    0xd8  Code  Lc  lv_draw_sw_rect.o [1]
+draw_part_begin_event_cb
+                        0x08053cd9    0xc4  Code  Lc  lv_calendar.o [1]
+draw_placeholder        0x08042b2d    0xb6  Code  Lc  lv_textarea.o [1]
+draw_quarter_0          0x08049f19   0x1b0  Code  Lc  lv_draw_sw_arc.o [1]
+draw_quarter_1          0x0804a0c9   0x1bc  Code  Lc  lv_draw_sw_arc.o [1]
+draw_quarter_2          0x0804a285   0x200  Code  Lc  lv_draw_sw_arc.o [1]
+draw_quarter_3          0x0804a485   0x1b6  Code  Lc  lv_draw_sw_arc.o [1]
+draw_scrollbar          0x080244ef    0xa6  Code  Lc  lv_obj.o [1]
+draw_series_bar         0x08039f41   0x240  Code  Lc  lv_chart.o [1]
+draw_series_line        0x080396dd   0x47a  Code  Lc  lv_chart.o [1]
+draw_series_scatter     0x08039b59   0x3e0  Code  Lc  lv_chart.o [1]
+draw_shadow             0x0803afbd   0xf58  Code  Lc  lv_draw_sw_rect.o [1]
+draw_ticks_and_labels   0x08044bf3   0x448  Code  Lc  lv_meter.o [1]
+event_head              0x200105f8     0x4  Data  Lc  lv_event.o [1]
+event_send_core         0x08029551   0x184  Code  Lc  lv_event.o [1]
+exit                    0x08056e6f     0x4  Code  Gb  exit.o [3]
+fast_hsv2rgb            0x0804b9ad    0x80  Code  Lc  lv_colorwheel.o [1]
+fill_blended            0x0803cf09   0x144  Code  Lc  lv_draw_sw_blend.o [1]
+fill_normal             0x0803cc3d   0x2ca  Code  Lc  lv_draw_sw_blend.o [1]
+fill_set_px             0x0803cb59    0xe2  Code  Lc  lv_draw_sw_blend.o [1]
+find_item               0x0803d787     0xe  Code  Lc  lv_draw_sw_gradient.o [1]
+find_oldest_item_life   0x0803d6db    0x12  Code  Lc  lv_draw_sw_gradient.o [1]
+find_scroll_obj         0x0802fe61   0x1fa  Code  Lc  lv_indev_scroll.o [1]
+find_snap_point_x       0x080301bf   0x10a  Code  Lc  lv_indev_scroll.o [1]
+find_snap_point_y       0x080302c9   0x110  Code  Lc  lv_indev_scroll.o [1]
+flex_update             0x08031b9d   0xb3e  Code  Lc  lv_flex.o [1]
+focus_next_core         0x0802b6dd    0xea  Code  Lc  lv_group.o [1]
+font_dsc                0x08038454    0x18  Data  Lc  lv_font_montserrat_14.o [1]
+font_dsc                0x0800e824    0x18  Data  Lc  lv_font_montserrat_20.o [1]
+font_dsc                0x08009300    0x18  Data  Lc  lv_font_montserrat_28.o [1]
+get_angle               0x080499a3    0x36  Code  Lc  lv_arc.o [1]
+get_button_from_point   0x08041a2d   0x1a8  Code  Lc  lv_btnmatrix.o [1]
+get_center              0x0804990b    0x98  Code  Lc  lv_arc.o [1]
+get_day_of_week         0x08053e0f    0x46  Code  Lc  lv_calendar.o [1]
+get_glyph_dsc_id        0x08030541    0xd4  Code  Lc  lv_font_fmt_txt.o [1]
+get_id_on_point         0x08048061    0x5c  Code  Lc  lv_dropdown.o [1]
+get_indev               0x0802b7c7    0x50  Code  Lc  lv_group.o [1]
+get_kern_value          0x08030615    0xa2  Code  Lc  lv_font_fmt_txt.o [1]
+get_knob_area           0x080499d9    0xbc  Code  Lc  lv_arc.o [1]
+get_knob_area           0x0804b3bf    0x96  Code  Lc  lv_colorwheel.o [1]
+get_local_style         0x08023119   0x104  Code  Lc  lv_obj_style.o [1]
+get_month_length        0x08053d9d    0x72  Code  Lc  lv_calendar.o [1]
+get_pressed_cell        0x0804b03d    0xee  Code  Lc  lv_table.o [1]
+get_prop_core           0x08023325    0xfa  Code  Lc  lv_obj_style.o [1]
+get_rounded_area        0x0804a63b    0x82  Code  Lc  lv_draw_sw_arc.o [1]
+get_row_height          0x0804af35   0x108  Code  Lc  lv_table.o [1]
+get_sel_area            0x08048a43    0x74  Code  Lc  lv_roller.o [1]
+get_selected_label_width
+                        0x08048da1    0x58  Code  Lc  lv_roller.o [1]
+get_trans_style         0x0802321d   0x108  Code  Lc  lv_obj_style.o [1]
+glyph_bitmap            0x08034f40  0x2280  Data  Lc  lv_font_montserrat_14.o [1]
+glyph_bitmap            0x08009334  0x425c  Data  Lc  lv_font_montserrat_20.o [1]
+glyph_bitmap            0x08000188  0x7ee4  Data  Lc  lv_font_montserrat_28.o [1]
+glyph_dsc               0x080371c0   0x4f0  Data  Lc  lv_font_montserrat_14.o [1]
+glyph_dsc               0x0800d590   0x4f0  Data  Lc  lv_font_montserrat_20.o [1]
+glyph_dsc               0x0800806c   0x4f0  Data  Lc  lv_font_montserrat_28.o [1]
+grad_cache_end          0x200105ac     0x4  Data  Lc  lv_draw_sw_gradient.o [1]
+grad_cache_size         0x200105a8     0x4  Data  Lc  lv_draw_sw_gradient.o [1]
+grey_filter_cb          0x0801c157    0x32  Code  Lc  lv_theme_default.o [1]
+grid_align              0x080332a1   0x1ba  Code  Lc  lv_grid.o [1]
+grid_update             0x08032761    0xf2  Code  Lc  lv_grid.o [1]
+hUsbHostFS              0x2000f368   0x3d0  Data  Gb  usb_host.o [1]
+hhcd_USB_OTG_FS         0x2000f738   0x2c4  Data  Gb  usbh_conf.o [1]
+hi2c1                   0x200102c4    0x54  Data  Gb  main.o [1]
+hi2s3                   0x20010318    0x48  Data  Gb  main.o [1]
+highlight_update        0x08053e55    0x94  Code  Lc  lv_calendar.o [1]
+hspi1                   0x2001026c    0x58  Data  Gb  main.o [1]
+idle_last               0x20010585     0x1  Data  Lc  lv_timer.o [1]
+indev_act               0x200105e8     0x4  Data  Lc  lv_indev.o [1]
+indev_click_focus       0x0802ac7d    0xdc  Code  Lc  lv_indev.o [1]
+indev_encoder_proc      0x0802a533   0x3fc  Code  Lc  lv_indev.o [1]
+indev_gesture           0x0802ad59    0xe2  Code  Lc  lv_indev.o [1]
+indev_keypad_proc       0x0802a2d7   0x25c  Code  Lc  lv_indev.o [1]
+indev_mouse             0x20010550     0x4  Data  Gb  lv_port_mouse.o [1]
+indev_obj_act           0x200105ec     0x4  Data  Lc  lv_indev.o [1]
+indev_pointer_proc      0x0802a22d    0xaa  Code  Lc  lv_indev.o [1]
+indev_proc_press        0x0802a92f   0x248  Code  Lc  lv_indev.o [1]
+indev_proc_release      0x0802ab7d    0xba  Code  Lc  lv_indev.o [1]
+indev_proc_reset_query_handler
+                        0x0802ac37    0x40  Code  Lc  lv_indev.o [1]
+indic                   0x20010408     0x4  Data  Gb  ui.o [1]
+inf_normalize           0x08048d11    0x90  Code  Lc  lv_roller.o [1]
+init_mparams            0x0803db1f    0x32  Code  Lc  dlmalloc.o [3]
+init_scroll_limits      0x0803005b   0x164  Code  Lc  lv_indev_scroll.o [1]
+init_top                0x0803db51    0x34  Code  Lc  dlmalloc.o [3]
+inited                  0x20010501     0x1  Data  Lc  lv_theme_default.o [1]
+inv_arc                 0x08045241    0xc2  Code  Lc  lv_meter.o [1]
+inv_arc_area            0x080497f5   0x116  Code  Lc  lv_arc.o [1]
+inv_line                0x08045303   0x186  Code  Lc  lv_meter.o [1]
+invalidate_button_area  0x08041bd5    0xe0  Code  Lc  lv_btnmatrix.o [1]
+invalidate_point        0x0803a525   0x19c  Code  Lc  lv_chart.o [1]
+item_repos              0x08032fa1   0x2f0  Code  Lc  lv_grid.o [1]
+kb_ctrl                 0x20000098    0x24  Data  Lc  lv_keyboard.o [1]
+kb_map                  0x20000074    0x24  Data  Lc  lv_keyboard.o [1]
+kern_class_values       0x08037894   0xbb0  Data  Lc  lv_font_montserrat_14.o [1]
+kern_class_values       0x0800dc64   0xbb0  Data  Lc  lv_font_montserrat_20.o [1]
+kern_class_values       0x08008740   0xbb0  Data  Lc  lv_font_montserrat_28.o [1]
+kern_classes            0x08038444    0x10  Data  Lc  lv_font_montserrat_14.o [1]
+kern_classes            0x0800e814    0x10  Data  Lc  lv_font_montserrat_20.o [1]
+kern_classes            0x080092f0    0x10  Data  Lc  lv_font_montserrat_28.o [1]
+kern_left_class_mapping
+                        0x08037754    0xa0  Data  Lc  lv_font_montserrat_14.o [1]
+kern_left_class_mapping
+                        0x0800db24    0xa0  Data  Lc  lv_font_montserrat_20.o [1]
+kern_left_class_mapping
+                        0x08008600    0xa0  Data  Lc  lv_font_montserrat_28.o [1]
+kern_pair_16_compare    0x080306cd    0x12  Code  Lc  lv_font_fmt_txt.o [1]
+kern_pair_8_compare     0x080306b9    0x12  Code  Lc  lv_font_fmt_txt.o [1]
+kern_right_class_mapping
+                        0x080377f4    0xa0  Data  Lc  lv_font_montserrat_14.o [1]
+kern_right_class_mapping
+                        0x0800dbc4    0xa0  Data  Lc  lv_font_montserrat_20.o [1]
+kern_right_class_mapping
+                        0x080086a0    0xa0  Data  Lc  lv_font_montserrat_28.o [1]
+kill_oldest_item        0x0803d6ed    0x9a  Code  Lc  lv_draw_sw_gradient.o [1]
+label_event_cb          0x080425a5    0x38  Code  Lc  lv_textarea.o [1]
+last_custom_prop_id     0x200050cc     0x2  Data  Lc  lv_style.o [1]
+last_timer_run          0x2001059c     0x4  Data  Lc  lv_anim.o [1]
+layout_cnt              0x20010608     0x4  Data  Lc  lv_obj_pos.o [1]
+layout_update_core      0x0802822d    0x72  Code  Lc  lv_obj_pos.o [1]
+line_mask_flat          0x0802e1fd   0x198  Code  Lc  lv_draw_mask.o [1]
+line_mask_steep         0x0802e395   0x256  Code  Lc  lv_draw_mask.o [1]
+localeconv              0x08040a4f    0x16  Code  Gb  localeconv.o [3]
+lv_anim_del             0x08028fd1    0x7c  Code  Gb  lv_anim.o [1]
+lv_anim_get             0x0802904d    0x2e  Code  Gb  lv_anim.o [1]
+lv_anim_init            0x08028eff    0x32  Code  Gb  lv_anim.o [1]
+lv_anim_path_ease_in_out
+                        0x080290f5    0x3a  Code  Gb  lv_anim.o [1]
+lv_anim_path_ease_out   0x080290b9    0x3c  Code  Gb  lv_anim.o [1]
+lv_anim_path_linear     0x08029091    0x28  Code  Gb  lv_anim.o [1]
+lv_anim_path_step       0x0802912f     0xe  Code  Gb  lv_anim.o [1]
+lv_anim_speed_to_time   0x0802907b    0x16  Code  Gb  lv_anim.o [1]
+lv_anim_start           0x08028f31    0xa0  Code  Gb  lv_anim.o [1]
+lv_arc_class            0x080497d8    0x1c  Data  Gb  lv_arc.o [1]
+lv_arc_constructor      0x080490d1    0x72  Code  Lc  lv_arc.o [1]
+lv_arc_draw             0x0804962d   0x1ac  Code  Lc  lv_arc.o [1]
+lv_arc_event            0x08049149   0x4e4  Code  Lc  lv_arc.o [1]
+lv_arc_set_bg_angles    0x08049089    0x1a  Code  Gb  lv_arc.o [1]
+lv_arc_set_bg_end_angle
+                        0x0804901d    0x6c  Code  Gb  lv_arc.o [1]
+lv_arc_set_bg_start_angle
+                        0x08048fb1    0x6c  Code  Gb  lv_arc.o [1]
+lv_arc_set_end_angle    0x08048f09    0xa8  Code  Gb  lv_arc.o [1]
+lv_arc_set_rotation     0x080490a3     0x6  Code  Gb  lv_arc.o [1]
+lv_arc_set_start_angle  0x08048e61    0xa8  Code  Gb  lv_arc.o [1]
+lv_arc_set_value        0x080490a9    0x28  Code  Gb  lv_arc.o [1]
+lv_area_get_height      0x08043e55     0xc  Code  Lc  lv_bar.o [1]
+lv_area_get_height      0x08031ad5     0xc  Code  Lc  lv_flex.o [1]
+lv_area_get_size        0x0802d3b5    0x1c  Code  Gb  lv_area.o [1]
+lv_area_get_width       0x08043e49     0xc  Code  Lc  lv_bar.o [1]
+lv_area_get_width       0x08031ac9     0xc  Code  Lc  lv_flex.o [1]
+lv_area_increase        0x0802d3d1    0x1a  Code  Gb  lv_area.o [1]
+lv_area_move            0x0802d3eb    0x1a  Code  Gb  lv_area.o [1]
+lv_area_set             0x0802d395     0xc  Code  Gb  lv_area.o [1]
+lv_area_set_height      0x0802d3ab     0xa  Code  Gb  lv_area.o [1]
+lv_area_set_width       0x0802d3a1     0xa  Code  Gb  lv_area.o [1]
+lv_atan2                0x0802f14b    0x8e  Code  Gb  lv_math.o [1]
+lv_bar_anim             0x080446dd     0x8  Code  Lc  lv_bar.o [1]
+lv_bar_anim_ready       0x080446e5    0x28  Code  Lc  lv_bar.o [1]
+lv_bar_class            0x0804470c    0x1c  Data  Gb  lv_bar.o [1]
+lv_bar_constructor      0x0804401b    0x96  Code  Lc  lv_bar.o [1]
+lv_bar_create           0x08043e61    0x16  Code  Gb  lv_bar.o [1]
+lv_bar_destructor       0x080440b1    0x1c  Code  Lc  lv_bar.o [1]
+lv_bar_event            0x08044609    0xd2  Code  Lc  lv_bar.o [1]
+lv_bar_get_mode         0x08044011     0xa  Code  Gb  lv_bar.o [1]
+lv_bar_get_start_value  0x08043ff3    0x1e  Code  Gb  lv_bar.o [1]
+lv_bar_get_value        0x08043fe5     0xe  Code  Gb  lv_bar.o [1]
+lv_bar_set_range        0x08043faf    0x36  Code  Gb  lv_bar.o [1]
+lv_bar_set_start_value  0x08043f0f    0xa0  Code  Gb  lv_bar.o [1]
+lv_bar_set_value        0x08043e77    0x98  Code  Gb  lv_bar.o [1]
+lv_bezier3              0x0802f105    0x46  Code  Gb  lv_math.o [1]
+lv_btn_class            0x0804640c    0x1c  Data  Gb  lv_btn.o [1]
+lv_btn_constructor      0x080463f3    0x1a  Code  Lc  lv_btn.o [1]
+lv_btn_create           0x080463dd    0x16  Code  Gb  lv_btn.o [1]
+lv_btnmatrix_class      0x08041988    0x1c  Data  Gb  lv_btnmatrix.o [1]
+lv_btnmatrix_clear_btn_ctrl
+                        0x08040e7b    0x34  Code  Gb  lv_btnmatrix.o [1]
+lv_btnmatrix_clear_btn_ctrl_all
+                        0x08040f0d    0x3c  Code  Gb  lv_btnmatrix.o [1]
+lv_btnmatrix_constructor
+                        0x08041031    0x28  Code  Lc  lv_btnmatrix.o [1]
+lv_btnmatrix_create     0x08040bdd    0x16  Code  Gb  lv_btnmatrix.o [1]
+lv_btnmatrix_def_map    0x2000000c    0x1c  Data  Lc  lv_btnmatrix.o [1]
+lv_btnmatrix_destructor
+                        0x0804105d    0x18  Code  Lc  lv_btnmatrix.o [1]
+lv_btnmatrix_event      0x08041075   0x562  Code  Lc  lv_btnmatrix.o [1]
+lv_btnmatrix_get_btn_text
+                        0x08040fc5    0x52  Code  Gb  lv_btnmatrix.o [1]
+lv_btnmatrix_get_selected_btn
+                        0x08040fc1     0x4  Code  Gb  lv_btnmatrix.o [1]
+lv_btnmatrix_has_btn_ctrl
+                        0x08041017    0x1a  Code  Gb  lv_btnmatrix.o [1]
+lv_btnmatrix_set_btn_ctrl
+                        0x08040e1f    0x5c  Code  Gb  lv_btnmatrix.o [1]
+lv_btnmatrix_set_btn_ctrl_all
+                        0x08040eb1    0x5c  Code  Gb  lv_btnmatrix.o [1]
+lv_btnmatrix_set_ctrl_map
+                        0x08040dd5    0x18  Code  Gb  lv_btnmatrix.o [1]
+lv_btnmatrix_set_map    0x08040bf5   0x1da  Code  Gb  lv_btnmatrix.o [1]
+lv_btnmatrix_set_one_checked
+                        0x08040f49    0x78  Code  Gb  lv_btnmatrix.o [1]
+lv_btnmatrix_set_selected_btn
+                        0x08040ded    0x32  Code  Gb  lv_btnmatrix.o [1]
+lv_calendar_class       0x08053ee8    0x1c  Data  Gb  lv_calendar.o [1]
+lv_calendar_constructor
+                        0x08053b99   0x130  Code  Lc  lv_calendar.o [1]
+lv_calendar_get_showed_date
+                        0x08053b95     0x4  Code  Gb  lv_calendar.o [1]
+lv_calendar_header_arrow_class
+                        0x08056840    0x1c  Data  Gb  lv_calendar_header_arrow.o [1]
+lv_calendar_header_dropdown_class
+                        0x08054fdc    0x1c  Data  Gb  lv_calendar_header_dropdown.o [1]
+lv_calendar_set_showed_date
+                        0x08053a11   0x184  Code  Gb  lv_calendar.o [1]
+lv_chart_add_series     0x080385e5    0xda  Code  Gb  lv_chart.o [1]
+lv_chart_class          0x0803a83c    0x1c  Data  Gb  lv_chart.o [1]
+lv_chart_constructor    0x080386fb    0x74  Code  Lc  lv_chart.o [1]
+lv_chart_create         0x08038489    0x14  Code  Gb  lv_chart.o [1]
+lv_chart_destructor     0x08038771    0x76  Code  Lc  lv_chart.o [1]
+lv_chart_event          0x080387e9   0xc76  Code  Lc  lv_chart.o [1]
+lv_chart_refresh        0x080385e1     0x4  Code  Gb  lv_chart.o [1]
+lv_chart_set_axis_tick  0x08038579    0x68  Code  Gb  lv_chart.o [1]
+lv_chart_set_div_line_count
+                        0x08038559    0x1e  Code  Gb  lv_chart.o [1]
+lv_chart_set_next_value
+                        0x080386bf    0x3c  Code  Gb  lv_chart.o [1]
+lv_chart_set_point_count
+                        0x080384a1    0x78  Code  Gb  lv_chart.o [1]
+lv_chart_set_range      0x08038519    0x40  Code  Gb  lv_chart.o [1]
+lv_checkbox_class       0x0805535c    0x1c  Data  Gb  lv_checkbox.o [1]
+lv_checkbox_constructor
+                        0x08054ff9    0x30  Code  Lc  lv_checkbox.o [1]
+lv_checkbox_destructor  0x08055029    0x18  Code  Lc  lv_checkbox.o [1]
+lv_checkbox_draw        0x08055153   0x1fa  Code  Lc  lv_checkbox.o [1]
+lv_checkbox_event       0x08055041   0x112  Code  Lc  lv_checkbox.o [1]
+lv_clamp_height         0x08027e97    0x70  Code  Gb  lv_obj_pos.o [1]
+lv_clamp_width          0x08027e27    0x70  Code  Gb  lv_obj_pos.o [1]
+lv_color_brightness     0x08055e11    0x2c  Code  Lc  lv_led.o [1]
+lv_color_darken         0x080205ab    0x1a  Code  Gb  lv_color.o [1]
+lv_color_fill           0x08020491   0x11a  Code  Gb  lv_color.o [1]
+lv_color_hsv_to_rgb     0x080205c5    0xe4  Code  Gb  lv_color.o [1]
+lv_color_mix            0x08020451    0x38  Code  Lc  lv_color.o [1]
+lv_color_mix            0x0803c881    0x38  Code  Lc  lv_draw_sw_blend.o [1]
+lv_color_mix            0x0805229d    0x38  Code  Lc  lv_draw_sw_transform.o [1]
+lv_color_mix            0x08055dd3    0x38  Code  Lc  lv_led.o [1]
+lv_color_mix            0x08044741    0x3a  Code  Lc  lv_meter.o [1]
+lv_color_mix            0x0802227d    0x3a  Code  Lc  lv_obj_style.o [1]
+lv_color_mix            0x0801c10d    0x38  Code  Lc  lv_theme_default.o [1]
+lv_color_mix_premult    0x0803c8ed    0x66  Code  Lc  lv_draw_sw_blend.o [1]
+lv_color_mix_premult    0x080529c1    0x66  Code  Lc  lv_draw_sw_img.o [1]
+lv_color_premult        0x0803c8bd    0x30  Code  Lc  lv_draw_sw_blend.o [1]
+lv_color_premult        0x08052991    0x30  Code  Lc  lv_draw_sw_img.o [1]
+lv_color_to32           0x0803d689    0x52  Code  Lc  lv_draw_sw_gradient.o [1]
+lv_color_to32           0x08055d81    0x52  Code  Lc  lv_led.o [1]
+lv_colorwheel_class     0x0804bb54    0x1c  Data  Gb  lv_colorwheel.o [1]
+lv_colorwheel_constructor
+                        0x0804b1a9    0x54  Code  Lc  lv_colorwheel.o [1]
+lv_colorwheel_event     0x0804b455   0x49a  Code  Lc  lv_colorwheel.o [1]
+lv_colorwheel_set_hsv   0x0804b12d    0x7c  Code  Gb  lv_colorwheel.o [1]
+lv_disp_draw_buf_init   0x0802129b    0x20  Code  Gb  lv_hal_disp.o [1]
+lv_disp_drv_init        0x0802124d    0x4e  Code  Gb  lv_hal_disp.o [1]
+lv_disp_drv_register    0x080212bb   0x120  Code  Gb  lv_hal_disp.o [1]
+lv_disp_flush_ready     0x08021449     0xa  Code  Gb  lv_hal_disp.o [1]
+lv_disp_get_default     0x080213db     0x8  Code  Gb  lv_hal_disp.o [1]
+lv_disp_get_dpi         0x08021433    0x16  Code  Gb  lv_hal_disp.o [1]
+lv_disp_get_draw_buf    0x08021467     0x6  Code  Gb  lv_hal_disp.o [1]
+lv_disp_get_hor_res     0x080213e3    0x28  Code  Gb  lv_hal_disp.o [1]
+lv_disp_get_layer_sys   0x08022199    0x12  Code  Gb  lv_disp.o [1]
+lv_disp_get_layer_top   0x08022187    0x12  Code  Gb  lv_disp.o [1]
+lv_disp_get_next        0x08021453    0x14  Code  Gb  lv_hal_disp.o [1]
+lv_disp_get_scr_act     0x08022081    0x12  Code  Gb  lv_disp.o [1]
+lv_disp_get_scr_prev    0x08022093    0x12  Code  Gb  lv_disp.o [1]
+lv_disp_get_theme       0x080221f5    0x10  Code  Gb  lv_disp.o [1]
+lv_disp_get_ver_res     0x0802140b    0x28  Code  Gb  lv_hal_disp.o [1]
+lv_disp_is_invalidation_enabled
+                        0x08022205    0x1c  Code  Gb  lv_disp.o [1]
+lv_disp_load_scr        0x080220a5    0xe2  Code  Gb  lv_disp.o [1]
+lv_disp_set_theme       0x080221ab    0x4a  Code  Gb  lv_disp.o [1]
+lv_draw_arc             0x08046d09    0x26  Code  Gb  lv_draw_arc.o [1]
+lv_draw_arc_dsc_init    0x08046ce9    0x20  Code  Gb  lv_draw_arc.o [1]
+lv_draw_arc_get_area    0x08046d2f   0x3b6  Code  Gb  lv_draw_arc.o [1]
+lv_draw_img             0x0802f333    0x5a  Code  Gb  lv_draw_img.o [1]
+lv_draw_img_dsc_init    0x0802f309    0x2a  Code  Gb  lv_draw_img.o [1]
+lv_draw_init            0x0802b817     0x2  Code  Gb  lv_draw.o [1]
+lv_draw_label           0x0803349d   0x708  Code  Gb  lv_draw_label.o [1]
+lv_draw_label_dsc_init  0x0803345d    0x40  Code  Gb  lv_draw_label.o [1]
+lv_draw_layer_adjust    0x080319cd    0x16  Code  Gb  lv_draw_layer.o [1]
+lv_draw_layer_blend     0x080319e3    0x16  Code  Gb  lv_draw_layer.o [1]
+lv_draw_layer_create    0x08031971    0x5c  Code  Gb  lv_draw_layer.o [1]
+lv_draw_layer_destroy   0x080319f9    0x46  Code  Gb  lv_draw_layer.o [1]
+lv_draw_line            0x08034711    0x14  Code  Gb  lv_draw_line.o [1]
+lv_draw_line_dsc_init   0x080346f1    0x20  Code  Gb  lv_draw_line.o [1]
+lv_draw_mask_add        0x0802d971    0x4a  Code  Gb  lv_draw_mask.o [1]
+lv_draw_mask_angle      0x0802e5ed   0x2ba  Code  Lc  lv_draw_mask.o [1]
+lv_draw_mask_angle_init
+                        0x0802dc91   0x35c  Code  Gb  lv_draw_mask.o [1]
+lv_draw_mask_apply      0x0802d9bb    0x52  Code  Gb  lv_draw_mask.o [1]
+lv_draw_mask_free_param
+                        0x0802daa3    0x36  Code  Gb  lv_draw_mask.o [1]
+lv_draw_mask_is_any     0x0802db29    0x50  Code  Gb  lv_draw_mask.o [1]
+lv_draw_mask_line       0x0802e141    0xbc  Code  Lc  lv_draw_mask.o [1]
+lv_draw_mask_line_points_init
+                        0x0802db79   0x118  Code  Gb  lv_draw_mask.o [1]
+lv_draw_mask_radius     0x0802e8a9   0x2e2  Code  Lc  lv_draw_mask.o [1]
+lv_draw_mask_radius_init
+                        0x0802dfed   0x14a  Code  Gb  lv_draw_mask.o [1]
+lv_draw_mask_remove_custom
+                        0x0802da31    0x72  Code  Gb  lv_draw_mask.o [1]
+lv_draw_mask_remove_id  0x0802da0d    0x20  Code  Gb  lv_draw_mask.o [1]
+lv_draw_rect            0x0802d941    0x2e  Code  Gb  lv_draw_rect.o [1]
+lv_draw_rect_dsc_init   0x0802d8e1    0x5a  Code  Gb  lv_draw_rect.o [1]
+lv_draw_sw_arc          0x08049b61   0x3b8  Code  Gb  lv_draw_sw_arc.o [1]
+lv_draw_sw_bg           0x0803a891    0x18  Code  Gb  lv_draw_sw_rect.o [1]
+lv_draw_sw_blend        0x0803c953    0x30  Code  Gb  lv_draw_sw_blend.o [1]
+lv_draw_sw_blend_basic  0x0803c983   0x1d4  Code  Gb  lv_draw_sw_blend.o [1]
+lv_draw_sw_buffer_copy  0x08056a85    0x6c  Code  Gb  lv_draw_sw.o [1]
+lv_draw_sw_img_decoded  0x08052a27   0x31c  Code  Gb  lv_draw_sw_img.o [1]
+lv_draw_sw_init_ctx     0x080569f9    0x52  Code  Gb  lv_draw_sw.o [1]
+lv_draw_sw_layer_adjust
+                        0x080563fd    0x52  Code  Gb  lv_draw_sw_layer.o [1]
+lv_draw_sw_layer_blend  0x0805644f    0x90  Code  Gb  lv_draw_sw_layer.o [1]
+lv_draw_sw_layer_create
+                        0x080562f9   0x104  Code  Gb  lv_draw_sw_layer.o [1]
+lv_draw_sw_layer_destroy
+                        0x080564df     0x6  Code  Gb  lv_draw_sw_layer.o [1]
+lv_draw_sw_letter       0x08052f6d   0x47c  Code  Gb  lv_draw_sw_letter.o [1]
+lv_draw_sw_line         0x08051ab9   0x1a6  Code  Gb  lv_draw_sw_line.o [1]
+lv_draw_sw_polygon      0x080547e5   0x428  Code  Gb  lv_draw_sw_polygon.o [1]
+lv_draw_sw_rect         0x0803a859    0x38  Code  Gb  lv_draw_sw_rect.o [1]
+lv_draw_sw_transform    0x080522d9   0x3c8  Code  Gb  lv_draw_sw_transform.o [1]
+lv_draw_sw_wait_for_finish
+                        0x08056a81     0x2  Code  Gb  lv_draw_sw.o [1]
+lv_draw_transform       0x08052f3d    0x30  Code  Gb  lv_draw_transform.o [1]
+lv_draw_wait_for_finish
+                        0x0802b819     0xa  Code  Gb  lv_draw.o [1]
+lv_dropdown_class       0x0804761c    0x1c  Data  Gb  lv_dropdown.o [1]
+lv_dropdown_constructor
+                        0x08047421    0x72  Code  Lc  lv_dropdown.o [1]
+lv_dropdown_create      0x080470e5    0x16  Code  Gb  lv_dropdown.o [1]
+lv_dropdown_destructor  0x08047499    0x26  Code  Lc  lv_dropdown.o [1]
+lv_dropdown_event       0x080474f9   0x122  Code  Lc  lv_dropdown.o [1]
+lv_dropdown_get_selected
+                        0x08047205     0x4  Code  Gb  lv_dropdown.o [1]
+lv_dropdown_list_event  0x08047639   0x12a  Code  Lc  lv_dropdown.o [1]
+lv_dropdown_open        0x08047209   0x218  Code  Gb  lv_dropdown.o [1]
+lv_dropdown_set_options
+                        0x080470fb    0x82  Code  Gb  lv_dropdown.o [1]
+lv_dropdown_set_options_static
+                        0x0804717d    0x6e  Code  Gb  lv_dropdown.o [1]
+lv_dropdown_set_selected
+                        0x080471eb    0x1a  Code  Gb  lv_dropdown.o [1]
+lv_dropdownlist_class   0x08048134    0x1c  Data  Gb  lv_dropdown.o [1]
+lv_dropdownlist_constructor
+                        0x080474bf    0x32  Code  Lc  lv_dropdown.o [1]
+lv_dropdownlist_destructor
+                        0x080474f1     0x8  Code  Lc  lv_dropdown.o [1]
+lv_event_get_code       0x08029409     0x8  Code  Gb  lv_event.o [1]
+lv_event_get_current_target
+                        0x08029405     0x4  Code  Gb  lv_event.o [1]
+lv_event_get_draw_ctx   0x08029519    0x22  Code  Gb  lv_event.o [1]
+lv_event_get_indev      0x080294cf    0x4a  Code  Gb  lv_event.o [1]
+lv_event_get_param      0x08029411     0x4  Code  Gb  lv_event.o [1]
+lv_event_get_target     0x08029401     0x4  Code  Gb  lv_event.o [1]
+lv_event_get_user_data  0x08029415     0x4  Code  Gb  lv_event.o [1]
+lv_event_send           0x0802937d    0x3c  Code  Gb  lv_event.o [1]
+lv_event_set_ext_draw_size
+                        0x0802953b    0x16  Code  Gb  lv_event.o [1]
+lv_extra_init           0x0802d381    0x12  Code  Gb  lv_extra.o [1]
+lv_flex_init            0x08031ae1    0x34  Code  Gb  lv_flex.o [1]
+lv_font_get_bitmap_fmt_txt
+                        0x08030485    0x2a  Code  Gb  lv_font_fmt_txt.o [1]
+lv_font_get_glyph_bitmap
+                        0x08034621     0x8  Code  Gb  lv_font.o [1]
+lv_font_get_glyph_dsc   0x08034629    0xae  Code  Gb  lv_font.o [1]
+lv_font_get_glyph_dsc_fmt_txt
+                        0x080304af    0x90  Code  Gb  lv_font_fmt_txt.o [1]
+lv_font_get_glyph_width
+                        0x080346d7    0x1a  Code  Gb  lv_font.o [1]
+lv_font_montserrat_14   0x0803846c    0x1c  Data  Gb  lv_font_montserrat_14.o [1]
+lv_font_montserrat_20   0x0800e83c    0x1c  Data  Gb  lv_font_montserrat_20.o [1]
+lv_font_montserrat_28   0x08009318    0x1c  Data  Gb  lv_font_montserrat_28.o [1]
+lv_fs_close             0x0802b13d    0x4a  Code  Gb  lv_fs.o [1]
+lv_fs_get_ext           0x0802b38f    0x2c  Code  Gb  lv_fs.o [1]
+lv_fs_open              0x0802b097    0xa6  Code  Gb  lv_fs.o [1]
+lv_fs_read              0x0802b2b3    0x4a  Code  Gb  lv_fs.o [1]
+lv_fs_read_cached       0x0802b187   0x12c  Code  Lc  lv_fs.o [1]
+lv_fs_seek              0x0802b2fd    0x92  Code  Gb  lv_fs.o [1]
+lv_gradient_calculate   0x0803d9c5   0x132  Code  Gb  lv_draw_sw_gradient.o [1]
+lv_gradient_cleanup     0x0803daf7     0xc  Code  Gb  lv_draw_sw_gradient.o [1]
+lv_gradient_get         0x0803d8c9    0xf4  Code  Gb  lv_draw_sw_gradient.o [1]
+lv_grid_init            0x080326fd    0x64  Code  Gb  lv_grid.o [1]
+lv_group_add_obj        0x0802b3d7    0x6e  Code  Gb  lv_group.o [1]
+lv_group_focus_next     0x0802b591    0x20  Code  Gb  lv_group.o [1]
+lv_group_focus_obj      0x0802b4d7    0xba  Code  Gb  lv_group.o [1]
+lv_group_focus_prev     0x0802b5b1    0x20  Code  Gb  lv_group.o [1]
+lv_group_get_default    0x0802b3cf     0x8  Code  Gb  lv_group.o [1]
+lv_group_get_editing    0x0802b65d     0xc  Code  Gb  lv_group.o [1]
+lv_group_get_focused    0x0802b651     0xc  Code  Gb  lv_group.o [1]
+lv_group_get_obj_count  0x0802b669     0x4  Code  Gb  lv_group.o [1]
+lv_group_refocus        0x0802b66d    0x56  Code  Lc  lv_group.o [1]
+lv_group_remove_obj     0x0802b445    0x92  Code  Gb  lv_group.o [1]
+lv_group_send_data      0x0802b5d1    0x30  Code  Gb  lv_group.o [1]
+lv_group_set_editing    0x0802b601    0x50  Code  Gb  lv_group.o [1]
+lv_img_cache_invalidate_src
+                        0x08033c09     0x2  Code  Gb  lv_img_cache.o [1]
+lv_img_cf_get_px_size   0x0802f38d    0x3c  Code  Gb  lv_draw_img.o [1]
+lv_img_class            0x080463c0    0x1c  Data  Gb  lv_img.o [1]
+lv_img_constructor      0x08045c8d    0x6a  Code  Lc  lv_img.o [1]
+lv_img_create           0x08045b11    0x16  Code  Gb  lv_img.o [1]
+lv_img_decoder_built_in_close
+                        0x0802cffd    0x34  Code  Gb  lv_img_decoder.o [1]
+lv_img_decoder_built_in_info
+                        0x0802cc5d    0xac  Code  Gb  lv_img_decoder.o [1]
+lv_img_decoder_built_in_line_alpha
+                        0x0802d031   0x20c  Code  Lc  lv_img_decoder.o [1]
+lv_img_decoder_built_in_line_indexed
+                        0x0802d23d   0x12c  Code  Lc  lv_img_decoder.o [1]
+lv_img_decoder_built_in_open
+                        0x0802cd09   0x21e  Code  Gb  lv_img_decoder.o [1]
+lv_img_decoder_built_in_read_line
+                        0x0802cf35    0xc6  Code  Gb  lv_img_decoder.o [1]
+lv_img_decoder_close    0x0802cc39    0x24  Code  Gb  lv_img_decoder.o [1]
+lv_img_decoder_get_info
+                        0x0802caf3    0x5c  Code  Gb  lv_img_decoder.o [1]
+lv_img_decoder_open     0x0802cb4f    0xc6  Code  Gb  lv_img_decoder.o [1]
+lv_img_decoder_read_line
+                        0x0802cc15    0x24  Code  Gb  lv_img_decoder.o [1]
+lv_img_destructor       0x08045cf7    0x2c  Code  Lc  lv_img.o [1]
+lv_img_event            0x08045d23   0x220  Code  Lc  lv_img.o [1]
+lv_img_set_src          0x08045b27   0x166  Code  Gb  lv_img.o [1]
+lv_img_src_get_type     0x0802f3c9    0x1e  Code  Gb  lv_draw_img.o [1]
+lv_indev_drv_init       0x08029e11    0x28  Code  Gb  lv_hal_indev.o [1]
+lv_indev_drv_register   0x08029e39    0x44  Code  Gb  lv_hal_indev.o [1]
+lv_indev_get_act        0x0802a019     0x8  Code  Gb  lv_indev.o [1]
+lv_indev_get_next       0x08029e7d    0x14  Code  Gb  lv_hal_indev.o [1]
+lv_indev_get_obj_act    0x0802a1b5     0x8  Code  Gb  lv_indev.o [1]
+lv_indev_get_point      0x0802a12f    0x2a  Code  Gb  lv_indev.o [1]
+lv_indev_get_scroll_dir
+                        0x0802a159    0x1c  Code  Gb  lv_indev.o [1]
+lv_indev_get_scroll_obj
+                        0x0802a175    0x16  Code  Gb  lv_indev.o [1]
+lv_indev_get_type       0x0802a021     0x8  Code  Gb  lv_indev.o [1]
+lv_indev_get_vect       0x0802a18b    0x1e  Code  Gb  lv_indev.o [1]
+lv_indev_read_timer_cb  0x08029ee1   0x138  Code  Gb  lv_indev.o [1]
+lv_indev_reset          0x0802a029    0xaa  Code  Gb  lv_indev.o [1]
+lv_indev_reset_long_press
+                        0x0802a0d3    0x1a  Code  Gb  lv_indev.o [1]
+lv_indev_scroll_throw_predict
+                        0x0802fdfb    0x66  Code  Gb  lv_indev_scroll.o [1]
+lv_indev_search_obj     0x0802a1bd    0x70  Code  Gb  lv_indev.o [1]
+lv_indev_set_cursor     0x0802a0ed    0x42  Code  Gb  lv_indev.o [1]
+lv_indev_wait_release   0x0802a1a9     0xc  Code  Gb  lv_indev.o [1]
+lv_init                 0x08023f31    0x54  Code  Gb  lv_obj.o [1]
+lv_initialized          0x2001061e     0x1  Data  Lc  lv_obj.o [1]
+lv_keyboard_class       0x08045af4    0x1c  Data  Gb  lv_keyboard.o [1]
+lv_keyboard_constructor
+                        0x080459c5    0x58  Code  Lc  lv_keyboard.o [1]
+lv_keyboard_create      0x080457ad    0x16  Code  Gb  lv_keyboard.o [1]
+lv_keyboard_def_event_cb
+                        0x080457ef   0x1d6  Code  Gb  lv_keyboard.o [1]
+lv_keyboard_set_textarea
+                        0x080457c3    0x2c  Code  Gb  lv_keyboard.o [1]
+lv_keyboard_update_ctrl_map
+                        0x08045a1d    0x9a  Code  Lc  lv_keyboard.o [1]
+lv_label_class          0x080310c0    0x1c  Data  Gb  lv_label.o [1]
+lv_label_constructor    0x08030ead    0xb4  Code  Lc  lv_label.o [1]
+lv_label_create         0x080306e9    0x16  Code  Gb  lv_label.o [1]
+lv_label_destructor     0x08030f61    0x3e  Code  Lc  lv_label.o [1]
+lv_label_event          0x08030f9f   0x122  Code  Lc  lv_label.o [1]
+lv_label_get_letter_on  0x08030a61   0x204  Code  Gb  lv_label.o [1]
+lv_label_get_letter_pos
+                        0x08030883   0x1dc  Code  Gb  lv_label.o [1]
+lv_label_get_text       0x0803087f     0x4  Code  Gb  lv_label.o [1]
+lv_label_get_text_selection_end
+                        0x08030e33     0x4  Code  Gb  lv_label.o [1]
+lv_label_get_text_selection_start
+                        0x08030e2f     0x4  Code  Gb  lv_label.o [1]
+lv_label_ins_text       0x08030e37    0x68  Code  Gb  lv_label.o [1]
+lv_label_is_char_under_pos
+                        0x08030c65   0x1ca  Code  Gb  lv_label.o [1]
+lv_label_refr_text      0x08031355   0x544  Code  Lc  lv_label.o [1]
+lv_label_revert_dots    0x08031899    0xa6  Code  Lc  lv_label.o [1]
+lv_label_set_long_mode  0x080307fd    0x76  Code  Gb  lv_label.o [1]
+lv_label_set_text       0x080306ff    0x78  Code  Gb  lv_label.o [1]
+lv_label_set_text_fmt   0x08030777    0x4c  Code  Gb  lv_label.o [1]
+lv_label_set_text_sel_end
+                        0x08030879     0x6  Code  Gb  lv_label.o [1]
+lv_label_set_text_sel_start
+                        0x08030873     0x6  Code  Gb  lv_label.o [1]
+lv_label_set_text_static
+                        0x080307c3    0x3a  Code  Gb  lv_label.o [1]
+lv_layout_register      0x08026941    0x36  Code  Gb  lv_obj_pos.o [1]
+lv_led_class            0x0805606c    0x1c  Data  Gb  lv_led.o [1]
+lv_led_constructor      0x08055e3d    0x1e  Code  Lc  lv_led.o [1]
+lv_led_event            0x08055e5b   0x212  Code  Lc  lv_led.o [1]
+lv_line_class           0x0805668c    0x1c  Data  Gb  lv_line.o [1]
+lv_line_constructor     0x080564e5    0x1a  Code  Lc  lv_line.o [1]
+lv_line_event           0x080564ff   0x18a  Code  Lc  lv_line.o [1]
+lv_list_btn_class       0x08056cb4    0x1c  Data  Gb  lv_list.o [1]
+lv_list_class           0x08056c98    0x1c  Data  Gb  lv_list.o [1]
+lv_list_text_class      0x08056cd0    0x1c  Data  Gb  lv_list.o [1]
+lv_map                  0x0802f211    0x40  Code  Gb  lv_math.o [1]
+lv_mem_alloc            0x0802149b    0x2e  Code  Gb  lv_mem.o [1]
+lv_mem_buf              0x2000fce4    0x80  Data  Gb  lv_gc.o [1]
+lv_mem_buf_free_all     0x0802182d    0x3e  Code  Gb  lv_mem.o [1]
+lv_mem_buf_get          0x080216ed    0xfa  Code  Gb  lv_mem.o [1]
+lv_mem_buf_release      0x080217e9    0x44  Code  Gb  lv_mem.o [1]
+lv_mem_free             0x080214c9    0x28  Code  Gb  lv_mem.o [1]
+lv_mem_init             0x08021485    0x16  Code  Gb  lv_mem.o [1]
+lv_mem_monitor          0x0802155d   0x18c  Code  Gb  lv_mem.o [1]
+lv_mem_realloc          0x080214f1    0x6c  Code  Gb  lv_mem.o [1]
+lv_mem_walker           0x08021fe9    0x22  Code  Lc  lv_mem.o [1]
+lv_memcpy               0x08021875   0x394  Code  Gb  lv_mem.o [1]
+lv_memset               0x08021c09   0x14a  Code  Gb  lv_mem.o [1]
+lv_memset_00            0x08021d53   0x13a  Code  Gb  lv_mem.o [1]
+lv_memset_ff            0x08021e8d   0x15a  Code  Gb  lv_mem.o [1]
+lv_menu_back_event_cb   0x08053821    0x9c  Code  Lc  lv_menu.o [1]
+lv_menu_class           0x08053914    0x1c  Data  Gb  lv_menu.o [1]
+lv_menu_constructor     0x080535e5   0x13c  Code  Lc  lv_menu.o [1]
+lv_menu_cont_class      0x0805394c    0x1c  Data  Gb  lv_menu.o [1]
+lv_menu_cont_constructor
+                        0x08053777    0x24  Code  Lc  lv_menu.o [1]
+lv_menu_destructor      0x08053729     0x8  Code  Lc  lv_menu.o [1]
+lv_menu_main_cont_class
+                        0x080539bc    0x1c  Data  Gb  lv_menu.o [1]
+lv_menu_main_header_cont_class
+                        0x080539d8    0x1c  Data  Gb  lv_menu.o [1]
+lv_menu_page_class      0x08053930    0x1c  Data  Gb  lv_menu.o [1]
+lv_menu_page_constructor
+                        0x08053731    0x34  Code  Lc  lv_menu.o [1]
+lv_menu_page_destructor
+                        0x08053765    0x12  Code  Lc  lv_menu.o [1]
+lv_menu_refr_main_header_mode
+                        0x080537b3    0x6e  Code  Lc  lv_menu.o [1]
+lv_menu_section_class   0x08053968    0x1c  Data  Gb  lv_menu.o [1]
+lv_menu_section_constructor
+                        0x0805379b    0x18  Code  Lc  lv_menu.o [1]
+lv_menu_separator_class
+                        0x08053984    0x1c  Data  Gb  lv_menu.o [1]
+lv_menu_set_page        0x08053505    0xe0  Code  Gb  lv_menu.o [1]
+lv_menu_sidebar_cont_class
+                        0x080539a0    0x1c  Data  Gb  lv_menu.o [1]
+lv_menu_sidebar_header_cont_class
+                        0x080539f4    0x1c  Data  Gb  lv_menu.o [1]
+lv_menu_value_changed_event_cb
+                        0x080538bd    0x58  Code  Lc  lv_menu.o [1]
+lv_meter_add_arc        0x08044837    0x3e  Code  Gb  lv_meter.o [1]
+lv_meter_add_needle_line
+                        0x080447f9    0x3e  Code  Gb  lv_meter.o [1]
+lv_meter_add_scale      0x08044791    0x38  Code  Gb  lv_meter.o [1]
+lv_meter_add_scale_lines
+                        0x08044875    0x4c  Code  Gb  lv_meter.o [1]
+lv_meter_class          0x08045488    0x1c  Data  Gb  lv_meter.o [1]
+lv_meter_constructor    0x080449af    0x1c  Code  Lc  lv_meter.o [1]
+lv_meter_create         0x0804477b    0x16  Code  Gb  lv_meter.o [1]
+lv_meter_destructor     0x080449cb    0x18  Code  Lc  lv_meter.o [1]
+lv_meter_event          0x080449e3    0xde  Code  Lc  lv_meter.o [1]
+lv_meter_set_indicator_end_value
+                        0x0804496b    0x44  Code  Gb  lv_meter.o [1]
+lv_meter_set_indicator_start_value
+                        0x08044927    0x44  Code  Gb  lv_meter.o [1]
+lv_meter_set_indicator_value
+                        0x080448c1    0x66  Code  Gb  lv_meter.o [1]
+lv_meter_set_scale_major_ticks
+                        0x080447df    0x1a  Code  Gb  lv_meter.o [1]
+lv_meter_set_scale_ticks
+                        0x080447c9    0x16  Code  Gb  lv_meter.o [1]
+lv_msgbox_backdrop_class
+                        0x08045790    0x1c  Data  Gb  lv_msgbox.o [1]
+lv_msgbox_class         0x08045758    0x1c  Data  Gb  lv_msgbox.o [1]
+lv_msgbox_content_class
+                        0x08045774    0x1c  Data  Gb  lv_msgbox.o [1]
+lv_msgbox_create        0x080454d9   0x250  Code  Gb  lv_msgbox.o [1]
+lv_obj_add_event_cb     0x08029441    0x8e  Code  Gb  lv_event.o [1]
+lv_obj_add_flag         0x08023f9b    0x6a  Code  Gb  lv_obj.o [1]
+lv_obj_add_state        0x08024077     0xe  Code  Gb  lv_obj.o [1]
+lv_obj_add_style        0x080222c1   0x150  Code  Gb  lv_obj_style.o [1]
+lv_obj_align            0x0802697d    0x5e  Code  Gb  lv_obj_pos.o [1]
+lv_obj_align_to         0x080269dd   0x6b4  Code  Gb  lv_obj_pos.o [1]
+lv_obj_allocate_spec_attr
+                        0x080240cb    0x38  Code  Gb  lv_obj.o [1]
+lv_obj_area_is_visible  0x080279b5   0x36a  Code  Gb  lv_obj_pos.o [1]
+lv_obj_calculate_ext_draw_size
+                        0x08029cb9    0xcc  Code  Gb  lv_obj_draw.o [1]
+lv_obj_calculate_style_text_align
+                        0x08023067    0xb0  Code  Gb  lv_obj_style.o [1]
+lv_obj_check_type       0x08024103    0x10  Code  Gb  lv_obj.o [1]
+lv_obj_class            0x08024594    0x1c  Data  Gb  lv_obj.o [1]
+lv_obj_class_create_obj
+                        0x0802ae41    0xf8  Code  Gb  lv_obj_class.o [1]
+lv_obj_class_init_obj   0x0802af39    0xc4  Code  Gb  lv_obj_class.o [1]
+lv_obj_clear_flag       0x08024005    0x72  Code  Gb  lv_obj.o [1]
+lv_obj_clear_state      0x08024085    0x10  Code  Gb  lv_obj.o [1]
+lv_obj_construct        0x0802b05f    0x2c  Code  Lc  lv_obj_class.o [1]
+lv_obj_constructor      0x08024113    0x5a  Code  Lc  lv_obj.o [1]
+lv_obj_create           0x08023f85    0x16  Code  Gb  lv_obj.o [1]
+lv_obj_del              0x08023955    0x6c  Code  Gb  lv_obj_tree.o [1]
+lv_obj_destructor       0x0802416d    0x66  Code  Lc  lv_obj.o [1]
+lv_obj_draw             0x080241ed   0x302  Code  Lc  lv_obj.o [1]
+lv_obj_draw_dsc_init    0x08029d85    0x14  Code  Gb  lv_obj_draw.o [1]
+lv_obj_enable_style_refresh
+                        0x08022975     0x8  Code  Gb  lv_obj_style.o [1]
+lv_obj_event            0x080246dd   0x37c  Code  Lc  lv_obj.o [1]
+lv_obj_event_base       0x080293b9    0x48  Code  Gb  lv_event.o [1]
+lv_obj_get_child        0x08023cc3    0x1e  Code  Gb  lv_obj_tree.o [1]
+lv_obj_get_child_cnt    0x08023ce1     0x8  Code  Gb  lv_obj_tree.o [1]
+lv_obj_get_click_area   0x08027d87    0x3e  Code  Gb  lv_obj_pos.o [1]
+lv_obj_get_content_coords
+                        0x080271df    0x76  Code  Gb  lv_obj_pos.o [1]
+lv_obj_get_content_height
+                        0x0802719d    0x42  Code  Gb  lv_obj_pos.o [1]
+lv_obj_get_content_width
+                        0x0802715b    0x42  Code  Gb  lv_obj_pos.o [1]
+lv_obj_get_coords       0x08027091    0x14  Code  Gb  lv_obj_pos.o [1]
+lv_obj_get_disp         0x08023c4d    0x6c  Code  Gb  lv_obj_tree.o [1]
+lv_obj_get_group        0x080240c3     0x8  Code  Gb  lv_obj.o [1]
+lv_obj_get_height       0x0802714d     0xe  Code  Gb  lv_obj_pos.o [1]
+lv_obj_get_index        0x08023ce9    0x52  Code  Gb  lv_obj_tree.o [1]
+lv_obj_get_local_style_prop
+                        0x08022a35    0x3c  Code  Gb  lv_obj_style.o [1]
+lv_obj_get_parent       0x08023cbd     0x6  Code  Gb  lv_obj_tree.o [1]
+lv_obj_get_screen       0x08023c3d    0x10  Code  Gb  lv_obj_tree.o [1]
+lv_obj_get_scroll_bottom
+                        0x080250e3    0xa6  Code  Gb  lv_obj_scroll.o [1]
+lv_obj_get_scroll_dir   0x08025091    0x10  Code  Gb  lv_obj_scroll.o [1]
+lv_obj_get_scroll_end   0x0802532b    0x3e  Code  Gb  lv_obj_scroll.o [1]
+lv_obj_get_scroll_left  0x08025189    0xe0  Code  Gb  lv_obj_scroll.o [1]
+lv_obj_get_scroll_right
+                        0x08025269    0xc2  Code  Gb  lv_obj_scroll.o [1]
+lv_obj_get_scroll_snap_x
+                        0x080250a1     0xc  Code  Gb  lv_obj_scroll.o [1]
+lv_obj_get_scroll_snap_y
+                        0x080250ad     0xc  Code  Gb  lv_obj_scroll.o [1]
+lv_obj_get_scroll_top   0x080250d5     0xe  Code  Gb  lv_obj_scroll.o [1]
+lv_obj_get_scroll_x     0x080250b9     0xe  Code  Gb  lv_obj_scroll.o [1]
+lv_obj_get_scroll_y     0x080250c7     0xe  Code  Gb  lv_obj_scroll.o [1]
+lv_obj_get_scrollbar_area
+                        0x0802594b   0x70e  Code  Gb  lv_obj_scroll.o [1]
+lv_obj_get_scrollbar_mode
+                        0x08025081    0x10  Code  Gb  lv_obj_scroll.o [1]
+lv_obj_get_self_height  0x0802726f    0x1a  Code  Gb  lv_obj_pos.o [1]
+lv_obj_get_self_width   0x08027255    0x1a  Code  Gb  lv_obj_pos.o [1]
+lv_obj_get_state        0x080240b1     0x4  Code  Gb  lv_obj.o [1]
+lv_obj_get_style_prop   0x0802297d    0x90  Code  Gb  lv_obj_style.o [1]
+lv_obj_get_transformed_area
+                        0x080277c9   0x150  Code  Gb  lv_obj_pos.o [1]
+lv_obj_get_width        0x0802713f     0xe  Code  Gb  lv_obj_pos.o [1]
+lv_obj_get_x            0x080270a5    0x40  Code  Gb  lv_obj_pos.o [1]
+lv_obj_get_y            0x080270e5    0x40  Code  Gb  lv_obj_pos.o [1]
+lv_obj_get_y2           0x08027125    0x1a  Code  Gb  lv_obj_pos.o [1]
+lv_obj_has_flag         0x08024095     0xe  Code  Gb  lv_obj.o [1]
+lv_obj_has_flag_any     0x080240a3     0xe  Code  Gb  lv_obj.o [1]
+lv_obj_has_state        0x080240b5     0xe  Code  Gb  lv_obj.o [1]
+lv_obj_hit_test         0x08027dc5    0x62  Code  Gb  lv_obj_pos.o [1]
+lv_obj_init_draw_arc_dsc
+                        0x08029c07    0xb2  Code  Gb  lv_obj_draw.o [1]
+lv_obj_init_draw_img_dsc
+                        0x08029a83    0xb6  Code  Gb  lv_obj_draw.o [1]
+lv_obj_init_draw_label_dsc
+                        0x080299cd    0xb6  Code  Gb  lv_obj_draw.o [1]
+lv_obj_init_draw_line_dsc
+                        0x08029b39    0xce  Code  Gb  lv_obj_draw.o [1]
+lv_obj_init_draw_rect_dsc
+                        0x080296d5   0x2f8  Code  Gb  lv_obj_draw.o [1]
+lv_obj_invalidate       0x0802795d    0x58  Code  Gb  lv_obj_pos.o [1]
+lv_obj_invalidate_area  0x08027919    0x44  Code  Gb  lv_obj_pos.o [1]
+lv_obj_is_editable      0x0802b01b    0x44  Code  Gb  lv_obj_class.o [1]
+lv_obj_is_layout_positioned
+                        0x080268ab    0x2e  Code  Gb  lv_obj_pos.o [1]
+lv_obj_is_visible       0x08027d1f    0x54  Code  Gb  lv_obj_pos.o [1]
+lv_obj_mark_layout_as_dirty
+                        0x080268d9    0x2e  Code  Gb  lv_obj_pos.o [1]
+lv_obj_move_children_by
+                        0x080276bd    0x5c  Code  Gb  lv_obj_pos.o [1]
+lv_obj_move_to          0x08027551   0x16c  Code  Gb  lv_obj_pos.o [1]
+lv_obj_move_to_index    0x08023ad9   0x164  Code  Gb  lv_obj_tree.o [1]
+lv_obj_readjust_scroll  0x0802609b   0x1f8  Code  Gb  lv_obj_scroll.o [1]
+lv_obj_redraw           0x0802b83d    0xde  Code  Gb  lv_refr.o [1]
+lv_obj_refr_pos         0x080272e1   0x256  Code  Gb  lv_obj_pos.o [1]
+lv_obj_refr_size        0x0802644b   0x374  Code  Gb  lv_obj_pos.o [1]
+lv_obj_refresh_ext_draw_size
+                        0x08029d99    0x62  Code  Gb  lv_obj_draw.o [1]
+lv_obj_refresh_self_size
+                        0x08027289    0x54  Code  Gb  lv_obj_pos.o [1]
+lv_obj_refresh_style    0x08022685   0x2f0  Code  Gb  lv_obj_style.o [1]
+lv_obj_remove_local_style_prop
+                        0x08022a71    0x3c  Code  Gb  lv_obj_style.o [1]
+lv_obj_remove_style     0x08022411   0x1da  Code  Gb  lv_obj_style.o [1]
+lv_obj_report_style_change
+                        0x080225eb    0x9a  Code  Gb  lv_obj_style.o [1]
+lv_obj_scroll_by        0x0802545f   0x140  Code  Gb  lv_obj_scroll.o [1]
+lv_obj_scroll_by_bounded
+                        0x08025369    0xf6  Code  Gb  lv_obj_scroll.o [1]
+lv_obj_scroll_to        0x080255b9    0x52  Code  Gb  lv_obj_scroll.o [1]
+lv_obj_scroll_to_view_recursive
+                        0x0802565f   0x2ec  Code  Gb  lv_obj_scroll.o [1]
+lv_obj_scroll_to_x      0x0802560b    0x2a  Code  Gb  lv_obj_scroll.o [1]
+lv_obj_scroll_to_y      0x08025635    0x2a  Code  Gb  lv_obj_scroll.o [1]
+lv_obj_scrollbar_invalidate
+                        0x08026059    0x42  Code  Gb  lv_obj_scroll.o [1]
+lv_obj_set_align        0x08026977     0x6  Code  Gb  lv_obj_pos.o [1]
+lv_obj_set_ext_click_area
+                        0x08027d73    0x14  Code  Gb  lv_obj_pos.o [1]
+lv_obj_set_flex_align   0x08031b39    0x40  Code  Gb  lv_flex.o [1]
+lv_obj_set_flex_flow    0x08031b15    0x24  Code  Gb  lv_flex.o [1]
+lv_obj_set_flex_grow    0x08031b79    0x22  Code  Gb  lv_flex.o [1]
+lv_obj_set_height       0x08026845    0x30  Code  Gb  lv_obj_pos.o [1]
+lv_obj_set_layout       0x08026875    0x36  Code  Gb  lv_obj_pos.o [1]
+lv_obj_set_local_style_prop
+                        0x08022a0d    0x28  Code  Gb  lv_obj_style.o [1]
+lv_obj_set_parent       0x080239c1   0x118  Code  Gb  lv_obj_tree.o [1]
+lv_obj_set_pos          0x08026395    0x56  Code  Gb  lv_obj_pos.o [1]
+lv_obj_set_scroll_dir   0x08025029    0x24  Code  Gb  lv_obj_scroll.o [1]
+lv_obj_set_scroll_snap_x
+                        0x0802504d    0x1a  Code  Gb  lv_obj_scroll.o [1]
+lv_obj_set_scroll_snap_y
+                        0x08025067    0x1a  Code  Gb  lv_obj_scroll.o [1]
+lv_obj_set_scrollbar_mode
+                        0x08024ff9    0x30  Code  Gb  lv_obj_scroll.o [1]
+lv_obj_set_size         0x080267bf    0x56  Code  Gb  lv_obj_pos.o [1]
+lv_obj_set_state        0x08024a59   0x288  Code  Lc  lv_obj.o [1]
+lv_obj_set_style_align  0x0802ef51     0xa  Code  Gb  lv_obj_style_gen.o [1]
+lv_obj_set_style_base_dir
+                        0x0802eff3     0xa  Code  Gb  lv_obj_style_gen.o [1]
+lv_obj_set_style_bg_color
+                        0x0802ef83    0x1a  Code  Gb  lv_obj_style_gen.o [1]
+lv_obj_set_style_bg_img_src
+                        0x0802efa7     0xa  Code  Gb  lv_obj_style_gen.o [1]
+lv_obj_set_style_bg_opa
+                        0x0802ef9d     0xa  Code  Gb  lv_obj_style_gen.o [1]
+lv_obj_set_style_height
+                        0x0802ef33     0xa  Code  Gb  lv_obj_style_gen.o [1]
+lv_obj_set_style_layout
+                        0x0802efe9     0xa  Code  Gb  lv_obj_style_gen.o [1]
+lv_obj_set_style_max_width
+                        0x0802ef29     0xa  Code  Gb  lv_obj_style_gen.o [1]
+lv_obj_set_style_min_width
+                        0x0802ef1f     0xa  Code  Gb  lv_obj_style_gen.o [1]
+lv_obj_set_style_pad_bottom
+                        0x0802ef65     0xa  Code  Gb  lv_obj_style_gen.o [1]
+lv_obj_set_style_pad_left
+                        0x0802ef6f     0xa  Code  Gb  lv_obj_style_gen.o [1]
+lv_obj_set_style_pad_right
+                        0x0802ef79     0xa  Code  Gb  lv_obj_style_gen.o [1]
+lv_obj_set_style_pad_top
+                        0x0802ef5b     0xa  Code  Gb  lv_obj_style_gen.o [1]
+lv_obj_set_style_text_align
+                        0x0802efdf     0xa  Code  Gb  lv_obj_style_gen.o [1]
+lv_obj_set_style_text_color
+                        0x0802efb1    0x1a  Code  Gb  lv_obj_style_gen.o [1]
+lv_obj_set_style_text_font
+                        0x0802efd5     0xa  Code  Gb  lv_obj_style_gen.o [1]
+lv_obj_set_style_text_opa
+                        0x0802efcb     0xa  Code  Gb  lv_obj_style_gen.o [1]
+lv_obj_set_style_width  0x0802ef15     0xa  Code  Gb  lv_obj_style_gen.o [1]
+lv_obj_set_style_x      0x0802ef3d     0xa  Code  Gb  lv_obj_style_gen.o [1]
+lv_obj_set_style_y      0x0802ef47     0xa  Code  Gb  lv_obj_style_gen.o [1]
+lv_obj_set_width        0x08026815    0x30  Code  Gb  lv_obj_pos.o [1]
+lv_obj_set_x            0x080263eb    0x30  Code  Gb  lv_obj_pos.o [1]
+lv_obj_set_y            0x0802641b    0x30  Code  Gb  lv_obj_pos.o [1]
+lv_obj_style_get_selector_part
+                        0x08023061     0x6  Code  Gb  lv_obj_style.o [1]
+lv_obj_style_get_selector_state
+                        0x0802305d     0x4  Code  Gb  lv_obj_style.o [1]
+lv_obj_transform_point  0x08027719    0xb0  Code  Gb  lv_obj_pos.o [1]
+lv_obj_update_layout    0x08026909    0x38  Code  Gb  lv_obj_pos.o [1]
+lv_palette_darken       0x08020701    0x32  Code  Gb  lv_color.o [1]
+lv_palette_lighten      0x080206cb    0x36  Code  Gb  lv_color.o [1]
+lv_palette_main         0x080206a9    0x22  Code  Gb  lv_color.o [1]
+lv_point_transform      0x0802d773   0x12a  Code  Gb  lv_area.o [1]
+lv_point_within_circle  0x0802d8a1    0x3e  Code  Lc  lv_area.o [1]
+lv_port_disp_init       0x0804fe9d    0x3c  Code  Gb  lv_port_disp.o [1]
+lv_port_indev_init      0x0804ff51    0x40  Code  Gb  lv_port_mouse.o [1]
+lv_pow                  0x0802f1d9    0x38  Code  Gb  lv_math.o [1]
+lv_refr_get_top_obj     0x0802c1c3    0x78  Code  Lc  lv_refr.o [1]
+lv_refr_join_area       0x0802bcf5    0xd0  Code  Lc  lv_refr.o [1]
+lv_roller_class         0x08048634    0x1c  Data  Gb  lv_roller.o [1]
+lv_roller_constructor   0x080481b5    0x8e  Code  Lc  lv_roller.o [1]
+lv_roller_event         0x08048243   0x3f0  Code  Lc  lv_roller.o [1]
+lv_roller_label_class   0x08048e44    0x1c  Data  Gb  lv_roller.o [1]
+lv_roller_label_event   0x08048651   0x132  Code  Lc  lv_roller.o [1]
+lv_roller_set_selected  0x08048151    0x64  Code  Gb  lv_roller.o [1]
+lv_slider_class         0x08046ccc    0x1c  Data  Gb  lv_slider.o [1]
+lv_slider_constructor   0x0804643f    0x5a  Code  Lc  lv_slider.o [1]
+lv_slider_create        0x08046429    0x16  Code  Gb  lv_slider.o [1]
+lv_slider_event         0x08046499   0x570  Code  Lc  lv_slider.o [1]
+lv_snprintf             0x08034e13    0x1c  Code  Gb  lv_printf.o [1]
+lv_spinbox_class        0x08054368    0x1c  Data  Gb  lv_spinbox.o [1]
+lv_spinbox_constructor  0x08053f99    0x4e  Code  Lc  lv_spinbox.o [1]
+lv_spinbox_decrement    0x08053f5f    0x3a  Code  Gb  lv_spinbox.o [1]
+lv_spinbox_event        0x08053fe7   0x1b6  Code  Lc  lv_spinbox.o [1]
+lv_spinbox_increment    0x08053f25    0x3a  Code  Gb  lv_spinbox.o [1]
+lv_spinbox_step_prev    0x08053f05    0x20  Code  Gb  lv_spinbox.o [1]
+lv_spinbox_updatevalue  0x080541a1   0x1bc  Code  Lc  lv_spinbox.o [1]
+lv_spinner_class        0x08056b7c    0x1c  Data  Gb  lv_spinner.o [1]
+lv_spinner_constructor  0x08056af1    0x72  Code  Lc  lv_spinner.o [1]
+lv_style_get_prop       0x08020da9     0x2  Code  Gb  lv_style.o [1]
+lv_style_get_prop_inlined
+                        0x080208b5   0x358  Code  Lc  lv_style.o [1]
+lv_style_init           0x08020c0d     0x6  Code  Gb  lv_style.o [1]
+lv_style_is_empty       0x08020e93     0xa  Code  Gb  lv_style.o [1]
+lv_style_prop_get_default
+                        0x08020dd5    0xbe  Code  Gb  lv_style.o [1]
+lv_style_register_prop  0x08020c3b    0x66  Code  Gb  lv_style.o [1]
+lv_style_remove_prop    0x08020ca1   0x102  Code  Gb  lv_style.o [1]
+lv_style_reset          0x08020c13    0x28  Code  Gb  lv_style.o [1]
+lv_style_set_anim_time  0x0802123d     0x8  Code  Gb  lv_style_gen.o [1]
+lv_style_set_arc_color  0x080211d5    0x18  Code  Gb  lv_style_gen.o [1]
+lv_style_set_arc_rounded
+                        0x080211cd     0x8  Code  Gb  lv_style_gen.o [1]
+lv_style_set_arc_width  0x080211c5     0x8  Code  Gb  lv_style_gen.o [1]
+lv_style_set_bg_color   0x080210c5    0x18  Code  Gb  lv_style_gen.o [1]
+lv_style_set_bg_grad_color
+                        0x080210e5    0x18  Code  Gb  lv_style_gen.o [1]
+lv_style_set_bg_img_src
+                        0x080210fd     0x8  Code  Gb  lv_style_gen.o [1]
+lv_style_set_bg_opa     0x080210dd     0x8  Code  Gb  lv_style_gen.o [1]
+lv_style_set_border_color
+                        0x08021105    0x18  Code  Gb  lv_style_gen.o [1]
+lv_style_set_border_opa
+                        0x0802111d     0x8  Code  Gb  lv_style_gen.o [1]
+lv_style_set_border_post
+                        0x08021135     0x8  Code  Gb  lv_style_gen.o [1]
+lv_style_set_border_side
+                        0x0802112d     0x8  Code  Gb  lv_style_gen.o [1]
+lv_style_set_border_width
+                        0x08021125     0x8  Code  Gb  lv_style_gen.o [1]
+lv_style_set_clip_corner
+                        0x08021225     0x8  Code  Gb  lv_style_gen.o [1]
+lv_style_set_color_filter_dsc
+                        0x0802122d     0x8  Code  Gb  lv_style_gen.o [1]
+lv_style_set_color_filter_opa
+                        0x08021235     0x8  Code  Gb  lv_style_gen.o [1]
+lv_style_set_height     0x08021075     0x8  Code  Gb  lv_style_gen.o [1]
+lv_style_set_line_color
+                        0x080211ad    0x18  Code  Gb  lv_style_gen.o [1]
+lv_style_set_line_width
+                        0x080211a5     0x8  Code  Gb  lv_style_gen.o [1]
+lv_style_set_max_height
+                        0x0802107d     0x8  Code  Gb  lv_style_gen.o [1]
+lv_style_set_max_width  0x0802106d     0x8  Code  Gb  lv_style_gen.o [1]
+lv_style_set_outline_color
+                        0x08021145    0x18  Code  Gb  lv_style_gen.o [1]
+lv_style_set_outline_opa
+                        0x0802115d     0x8  Code  Gb  lv_style_gen.o [1]
+lv_style_set_outline_pad
+                        0x08021165     0x8  Code  Gb  lv_style_gen.o [1]
+lv_style_set_outline_width
+                        0x0802113d     0x8  Code  Gb  lv_style_gen.o [1]
+lv_style_set_pad_bottom
+                        0x0802109d     0x8  Code  Gb  lv_style_gen.o [1]
+lv_style_set_pad_column
+                        0x080210bd     0x8  Code  Gb  lv_style_gen.o [1]
+lv_style_set_pad_left   0x080210a5     0x8  Code  Gb  lv_style_gen.o [1]
+lv_style_set_pad_right  0x080210ad     0x8  Code  Gb  lv_style_gen.o [1]
+lv_style_set_pad_row    0x080210b5     0x8  Code  Gb  lv_style_gen.o [1]
+lv_style_set_pad_top    0x08021095     0x8  Code  Gb  lv_style_gen.o [1]
+lv_style_set_prop       0x08020da3     0x6  Code  Gb  lv_style.o [1]
+lv_style_set_prop_helper
+                        0x08020ef1     0x6  Code  Lc  lv_style.o [1]
+lv_style_set_prop_internal
+                        0x08020ef9    0xfa  Code  Lc  lv_style.o [1]
+lv_style_set_radius     0x0802121d     0x8  Code  Gb  lv_style_gen.o [1]
+lv_style_set_shadow_color
+                        0x08021185    0x18  Code  Gb  lv_style_gen.o [1]
+lv_style_set_shadow_ofs_y
+                        0x08021175     0x8  Code  Gb  lv_style_gen.o [1]
+lv_style_set_shadow_opa
+                        0x0802119d     0x8  Code  Gb  lv_style_gen.o [1]
+lv_style_set_shadow_spread
+                        0x0802117d     0x8  Code  Gb  lv_style_gen.o [1]
+lv_style_set_shadow_width
+                        0x0802116d     0x8  Code  Gb  lv_style_gen.o [1]
+lv_style_set_text_align
+                        0x08021215     0x8  Code  Gb  lv_style_gen.o [1]
+lv_style_set_text_color
+                        0x080211ed    0x18  Code  Gb  lv_style_gen.o [1]
+lv_style_set_text_font  0x08021205     0x8  Code  Gb  lv_style_gen.o [1]
+lv_style_set_text_line_space
+                        0x0802120d     0x8  Code  Gb  lv_style_gen.o [1]
+lv_style_set_transform_height
+                        0x0802108d     0x8  Code  Gb  lv_style_gen.o [1]
+lv_style_set_transform_width
+                        0x08021085     0x8  Code  Gb  lv_style_gen.o [1]
+lv_style_set_transition
+                        0x08021245     0x8  Code  Gb  lv_style_gen.o [1]
+lv_style_set_width      0x08021065     0x8  Code  Gb  lv_style_gen.o [1]
+lv_style_transition_dsc_init
+                        0x08020dab    0x2a  Code  Gb  lv_style.o [1]
+lv_switch_anim_exec_cb  0x08055991     0x6  Code  Lc  lv_switch.o [1]
+lv_switch_anim_ready    0x08055997     0xc  Code  Lc  lv_switch.o [1]
+lv_switch_class         0x08055a24    0x1c  Data  Gb  lv_switch.o [1]
+lv_switch_constructor   0x080556f1    0x28  Code  Lc  lv_switch.o [1]
+lv_switch_destructor    0x08055719     0x8  Code  Lc  lv_switch.o [1]
+lv_switch_event         0x08055721    0xea  Code  Lc  lv_switch.o [1]
+lv_switch_trigger_anim  0x080559a3    0x78  Code  Lc  lv_switch.o [1]
+lv_table_class          0x0804ae18    0x1c  Data  Gb  lv_table.o [1]
+lv_table_constructor    0x0804a6bd    0x3c  Code  Lc  lv_table.o [1]
+lv_table_destructor     0x0804a6f9    0x56  Code  Lc  lv_table.o [1]
+lv_table_event          0x0804a74f   0x200  Code  Lc  lv_table.o [1]
+lv_tabview_class        0x080556d4    0x1c  Data  Gb  lv_tabview.o [1]
+lv_tabview_constructor  0x0805541d   0x132  Code  Lc  lv_tabview.o [1]
+lv_tabview_destructor   0x08055559    0x68  Code  Lc  lv_tabview.o [1]
+lv_tabview_event        0x080555c1    0x34  Code  Lc  lv_tabview.o [1]
+lv_tabview_set_act      0x08055379    0xa4  Code  Gb  lv_tabview.o [1]
+lv_textarea_add_char    0x08041ccb   0x14e  Code  Gb  lv_textarea.o [1]
+lv_textarea_add_text    0x08041e19   0x128  Code  Gb  lv_textarea.o [1]
+lv_textarea_class       0x08042588    0x1c  Data  Gb  lv_textarea.o [1]
+lv_textarea_constructor
+                        0x080423c9    0x96  Code  Lc  lv_textarea.o [1]
+lv_textarea_create      0x08041cb5    0x16  Code  Gb  lv_textarea.o [1]
+lv_textarea_cursor_down
+                        0x08042307    0x68  Code  Gb  lv_textarea.o [1]
+lv_textarea_cursor_left
+                        0x080422f9     0xe  Code  Gb  lv_textarea.o [1]
+lv_textarea_cursor_right
+                        0x080422f3     0x6  Code  Gb  lv_textarea.o [1]
+lv_textarea_cursor_up   0x0804236f    0x5a  Code  Gb  lv_textarea.o [1]
+lv_textarea_del_char    0x08041f41    0xe2  Code  Gb  lv_textarea.o [1]
+lv_textarea_destructor  0x08042465    0x2a  Code  Lc  lv_textarea.o [1]
+lv_textarea_event       0x0804248f    0xf8  Code  Lc  lv_textarea.o [1]
+lv_textarea_get_cursor_pos
+                        0x080422e3     0x4  Code  Gb  lv_textarea.o [1]
+lv_textarea_get_one_line
+                        0x080422e7     0xc  Code  Gb  lv_textarea.o [1]
+lv_textarea_get_text    0x080422cd    0x16  Code  Gb  lv_textarea.o [1]
+lv_textarea_set_accepted_chars
+                        0x080422c9     0x4  Code  Gb  lv_textarea.o [1]
+lv_textarea_set_cursor_click_pos
+                        0x0804224d    0x12  Code  Gb  lv_textarea.o [1]
+lv_textarea_set_cursor_pos
+                        0x08042159    0xee  Code  Gb  lv_textarea.o [1]
+lv_textarea_set_one_line
+                        0x0804225f    0x6a  Code  Gb  lv_textarea.o [1]
+lv_textarea_set_placeholder_text
+                        0x08042115    0x44  Code  Gb  lv_textarea.o [1]
+lv_textarea_set_text    0x08042027    0xee  Code  Gb  lv_textarea.o [1]
+lv_theme_apply          0x080292e5    0x44  Code  Gb  lv_theme.o [1]
+lv_theme_default_get    0x0801f317     0xa  Code  Gb  lv_theme_default.o [1]
+lv_theme_default_init   0x0801f28b    0x8c  Code  Gb  lv_theme_default.o [1]
+lv_theme_default_is_inited
+                        0x0801f321     0xa  Code  Gb  lv_theme_default.o [1]
+lv_theme_get_color_primary
+                        0x0802932d    0x28  Code  Gb  lv_theme.o [1]
+lv_tick_elaps           0x0802eeff    0x12  Code  Gb  lv_hal_tick.o [1]
+lv_tick_get             0x0802eeef    0x10  Code  Gb  lv_hal_tick.o [1]
+lv_tick_inc             0x0802eee1     0xe  Code  Gb  lv_hal_tick.o [1]
+lv_tileview_class       0x080569c0    0x1c  Data  Gb  lv_tileview.o [1]
+lv_tileview_constructor
+                        0x0805685d    0x3a  Code  Lc  lv_tileview.o [1]
+lv_tileview_tile_class  0x080569dc    0x1c  Data  Gb  lv_tileview.o [1]
+lv_tileview_tile_constructor
+                        0x08056897    0x64  Code  Lc  lv_tileview.o [1]
+lv_timer_create         0x08024f83    0x3c  Code  Gb  lv_timer.o [1]
+lv_timer_get_idle       0x08024fe5     0x6  Code  Gb  lv_timer.o [1]
+lv_timer_handler        0x08024e35   0x14e  Code  Gb  lv_timer.o [1]
+lv_timer_pause          0x08024fbf     0xa  Code  Gb  lv_timer.o [1]
+lv_timer_ready          0x08024fd3    0x12  Code  Gb  lv_timer.o [1]
+lv_timer_resume         0x08024fc9     0xa  Code  Gb  lv_timer.o [1]
+lv_timer_run            0x20010584     0x1  Data  Lc  lv_timer.o [1]
+lv_tlsf_add_pool        0x080289e9    0x64  Code  Gb  lv_tlsf.o [1]
+lv_tlsf_create          0x08028a4d    0x4e  Code  Gb  lv_tlsf.o [1]
+lv_tlsf_create_with_pool
+                        0x08028a9b    0x1c  Code  Gb  lv_tlsf.o [1]
+lv_tlsf_free            0x08028af1   0x13e  Code  Gb  lv_tlsf.o [1]
+lv_tlsf_get_pool        0x08028ab7     0x6  Code  Gb  lv_tlsf.o [1]
+lv_tlsf_malloc          0x08028abd    0x34  Code  Gb  lv_tlsf.o [1]
+lv_tlsf_realloc         0x08028c2f   0x20e  Code  Gb  lv_tlsf.o [1]
+lv_tlsf_walk_pool       0x0802899d    0x46  Code  Gb  lv_tlsf.o [1]
+lv_trigo_sin            0x0802f0b1    0x54  Code  Gb  lv_math.o [1]
+lv_txt_get_size         0x08033d69   0x16a  Code  Gb  lv_txt.o [1]
+lv_txt_get_width        0x0803416d    0xac  Code  Gb  lv_txt.o [1]
+lv_txt_unicode_to_utf8  0x080343bb    0xac  Code  Lc  lv_txt.o [1]
+lv_txt_utf8_get_byte_id
+                        0x08034595    0x28  Code  Lc  lv_txt.o [1]
+lv_txt_utf8_get_char_id
+                        0x080345bd    0x28  Code  Lc  lv_txt.o [1]
+lv_txt_utf8_get_length  0x080345e5    0x2a  Code  Lc  lv_txt.o [1]
+lv_txt_utf8_next        0x08034467    0xbe  Code  Lc  lv_txt.o [1]
+lv_txt_utf8_prev        0x08034525    0x70  Code  Lc  lv_txt.o [1]
+lv_txt_utf8_size        0x0803438b    0x30  Code  Lc  lv_txt.o [1]
+lv_vsnprintf            0x08034e2f    0x16  Code  Gb  lv_printf.o [1]
+lv_win_class            0x08056c10    0x1c  Data  Gb  lv_win.o [1]
+lv_win_constructor      0x08056b99    0x72  Code  Lc  lv_win.o [1]
+main                    0x0804e601    0xfc  Code  Gb  main.o [1]
+map_blended             0x0803d3e1   0x100  Code  Lc  lv_draw_sw_blend.o [1]
+map_normal              0x0803d145   0x29c  Code  Lc  lv_draw_sw_blend.o [1]
+map_set_px              0x0803d04d    0xf6  Code  Lc  lv_draw_sw_blend.o [1]
+max_used                0x200000c4     0x4  Data  Lc  lv_mem.o [1]
+mbox1                   0x2000510c     0x4  Data  Gb  ui.o [1]
+mem_monitor             0x20010520     0x8  Data  Lc  lv_refr.o [1]
+memchr                  0x080401dd          Code  Gb  memchr.o [5]
+meter                   0x20010404     0x4  Data  Gb  ui.o [1]
+month_event_cb          0x08056781    0x70  Code  Lc  lv_calendar_header_arrow.o [1]
+month_event_cb          0x08054c9d    0x34  Code  Lc  lv_calendar_header_dropdown.o [1]
+month_names_def         0x20000044    0x30  Data  Lc  lv_calendar_header_arrow.o [1]
+mouse_cursor_update     0x0804ffaf    0xbe  Code  Gb  lv_port_mouse.o [1]
+mouse_read              0x0804ff91    0x1e  Code  Lc  lv_port_mouse.o [1]
+mparams                 0x20010554    0x18  Data  Lc  dlmalloc.o [3]
+msgbox_close_click_event_cb
+                        0x08045731    0x26  Code  Lc  lv_msgbox.o [1]
+my_constructor          0x080566a9    0xd6  Code  Lc  lv_calendar_header_arrow.o [1]
+my_constructor          0x08054c15    0x84  Code  Lc  lv_calendar_header_dropdown.o [1]
+new_points_alloc        0x0803a6c1   0x17c  Code  Lc  lv_chart.o [1]
+obj_del_core            0x08023d3d   0x1f2  Code  Lc  lv_obj_tree.o [1]
+osDelay                 0x0804ebad    0x12  Code  Gb  cmsis_os.o [1]
+osKernelStart           0x0804eb29     0xe  Code  Gb  cmsis_os.o [1]
+osMessageCreate         0x0804ebbf    0x30  Code  Gb  cmsis_os.o [1]
+osMessageGet            0x0804ec3b    0x80  Code  Gb  cmsis_os.o [1]
+osMessagePut            0x0804ebef    0x4c  Code  Gb  cmsis_os.o [1]
+osThreadCreate          0x0804eb37    0x60  Code  Gb  cmsis_os.o [1]
+osThreadYield           0x0804eb97    0x16  Code  Gb  cmsis_os.o [1]
+perf_monitor            0x20010508    0x18  Data  Lc  lv_refr.o [1]
+position_to_selected    0x080480bd    0x5c  Code  Lc  lv_dropdown.o [1]
+prepend_alloc           0x0803db85   0x36c  Code  Lc  dlmalloc.o [3]
+prvAddNewTaskToReadyList
+                        0x0804bd43   0x100  Code  Lc  tasks.o [1]
+prvCopyDataFromQueue    0x08051291    0x2c  Code  Lc  queue.o [1]
+prvCopyDataToQueue      0x08051215    0x7c  Code  Lc  queue.o [1]
+prvIdleTask             0x0804c3ed    0x7a  Code  Lc  tasks.o [1]
+prvInsertBlockIntoFreeList
+                        0x0804c9fd    0x64  Code  Lc  heap_4.o [1]
+prvTaskExitError        0x0804c615    0x28  Code  Lc  port.o [1]
+prvUnlockQueue          0x080512bd    0x60  Code  Lc  queue.o [1]
+pvPortMalloc            0x0804c855   0x14c  Code  Gb  heap_4.o [1]
+pwd_char_hider          0x0804265d    0x92  Code  Lc  lv_textarea.o [1]
+pwd_char_hider_anim     0x08042659     0x2  Code  Lc  lv_textarea.o [1]
+pwd_char_hider_anim_ready
+                        0x0804265b     0x2  Code  Lc  lv_textarea.o [1]
+pxCurrentTCB            0x20010064     0x4  Data  Gb  tasks.o [1]
+pxDelayedTaskList       0x200100f4     0x4  Data  Lc  tasks.o [1]
+pxEnd                   0x2000b758     0x4  Data  Lc  heap_4.o [1]
+pxOverflowDelayedTaskList
+                        0x200100f8     0x4  Data  Lc  tasks.o [1]
+pxPortInitialiseStack   0x0804c5ed    0x26  Code  Gb  port.o [1]
+pxReadyTasksLists       0x20010068    0x8c  Data  Lc  tasks.o [1]
+px_num                  0x20010528     0x4  Data  Lc  lv_refr.o [1]
+refr_area               0x0802bea9   0x1aa  Code  Lc  lv_refr.o [1]
+refr_area_part          0x0802c053   0x170  Code  Lc  lv_refr.o [1]
+refr_cursor_area        0x0804275d   0x22c  Code  Lc  lv_textarea.o [1]
+refr_invalid_areas      0x0802bdc5    0xe0  Code  Lc  lv_refr.o [1]
+refr_knob_pos           0x0804b8ef    0xbe  Code  Lc  lv_colorwheel.o [1]
+refr_obj                0x0802c2c5   0x282  Code  Lc  lv_refr.o [1]
+refr_obj_and_children   0x0802c23b    0x88  Code  Lc  lv_refr.o [1]
+refr_position           0x08048ab7   0x10e  Code  Lc  lv_roller.o [1]
+refr_size_form_row      0x0804ae35   0x100  Code  Lc  lv_table.o [1]
+refresh_children_style  0x080235e1    0x3c  Code  Lc  lv_obj_style.o [1]
+release_handler         0x08048bc5   0x142  Code  Lc  lv_roller.o [1]
+remove_free_block       0x0802872f    0x48  Code  Lc  lv_tlsf.o [1]
+report_style_change_core
+                        0x0802341f   0x1c2  Code  Lc  lv_obj_style.o [1]
+scr_load_internal       0x08022221    0x50  Code  Lc  lv_disp.o [1]
+scroll_anim_ready_cb    0x08026385     0xa  Code  Lc  lv_obj_scroll.o [1]
+scroll_anim_ready_cb    0x08048df9    0x12  Code  Lc  lv_roller.o [1]
+scroll_by_raw           0x08026293    0x46  Code  Lc  lv_obj_scroll.o [1]
+scroll_limit_diff       0x080303e1    0x6a  Code  Lc  lv_indev_scroll.o [1]
+scroll_x_anim           0x080262dd    0x54  Code  Lc  lv_obj_scroll.o [1]
+scroll_y_anim           0x08026331    0x54  Code  Lc  lv_obj_scroll.o [1]
+scrollbar_init_draw_dsc
+                        0x080245b1   0x12c  Code  Lc  lv_obj.o [1]
+segment_holding         0x0803db05    0x1a  Code  Lc  dlmalloc.o [3]
+set_ofs_x_anim          0x08031959     0x8  Code  Lc  lv_label.o [1]
+set_ofs_y_anim          0x08031961     0x8  Code  Lc  lv_label.o [1]
+set_y_anim              0x08048e0d     0x6  Code  Lc  lv_roller.o [1]
+shadow_blur_corner      0x0803bf15   0x26a  Code  Lc  lv_draw_sw_rect.o [1]
+sin0_90_table           0x0802f250    0xb8  Data  Lc  lv_math.o [1]
+sprintf                 0x080454a5    0x34  Code  Gb  sprintf.o [3]
+start_cursor_blink      0x080426ef    0x60  Code  Lc  lv_textarea.o [1]
+strchr                  0x080401c5          Code  Gb  strchr.o [5]
+strlen                  0x0803044d          Code  Gb  strlen.o [5]
+style_init              0x0801c191  0x30fa  Code  Lc  lv_theme_default.o [1]
+style_refr              0x20005248     0x1  Data  Lc  lv_obj_style.o [1]
+styles                  0x20010504     0x4  Data  Lc  lv_theme_default.o [1]
+sys_alloc               0x0803def1   0x386  Code  Lc  dlmalloc.o [3]
+sys_time                0x200105e4     0x4  Data  Lc  lv_hal_tick.o [1]
+ta_insert_replace       0x20010610     0x4  Data  Lc  lv_textarea.o [1]
+tabpos_create           0x2001060c     0x1  Data  Lc  lv_tabview.o [1]
+tabsize_create          0x2001060e     0x2  Data  Lc  lv_tabview.o [1]
+test_run                0x20010620     0x1  Data  Gb  main.o [1]
+theme                   0x200104dc    0x24  Data  Lc  lv_theme_default.o [1]
+theme_apply             0x0801f335  0x1064  Code  Lc  lv_theme_default.o [1]
+tick_irq_flag           0x200105e0     0x1  Data  Lc  lv_hal_tick.o [1]
+tileview_event_cb       0x08056901    0xbe  Code  Lc  lv_tileview.o [1]
+time_param              0x200105f0     0x4  Data  Lc  lv_spinner.o [1]
+timer_created           0x20010587     0x1  Data  Lc  lv_timer.o [1]
+timer_deleted           0x20010586     0x1  Data  Lc  lv_timer.o [1]
+tlsf                    0x200000bc     0x4  Data  Lc  lv_mem.o [1]
+tlsf_ffs                0x0802832d   0x204  Code  Lc  lv_tlsf.o [1]
+tlsf_fls                0x08028531   0x1fe  Code  Lc  lv_tlsf.o [1]
+tmalloc_large           0x0803e285   0x390  Code  Lc  dlmalloc.o [3]
+tmalloc_small           0x0803e615   0x210  Code  Lc  dlmalloc.o [3]
+trans_anim_cb           0x080236c9   0x118  Code  Lc  lv_obj_style.o [1]
+trans_anim_ready_cb     0x080238a5    0xa6  Code  Lc  lv_obj_style.o [1]
+trans_anim_start_cb     0x080237e1    0xc2  Code  Lc  lv_obj_style.o [1]
+trans_del               0x0802361d    0xac  Code  Lc  lv_obj_style.o [1]
+transform_point         0x080282b5    0x6e  Code  Lc  lv_obj_pos.o [1]
+ucHeap                  0x2000b768  0x3c00  Data  Lc  heap_4.o [1]
+ucMaxSysCallPriority    0x200050f0     0x1  Data  Lc  port.o [1]
+ui_Bar1                 0x200103f8     0x4  Data  Gb  ui.o [1]
+ui_Chart1               0x20010374     0x4  Data  Gb  ui.o [1]
+ui_Image1               0x200103bc     0x4  Data  Gb  ui.o [1]
+ui_Image2               0x200103c0     0x4  Data  Gb  ui.o [1]
+ui_Image6               0x200103b8     0x4  Data  Gb  ui.o [1]
+ui_Keyboard1            0x20010400     0x4  Data  Gb  ui.o [1]
+ui_Label1               0x2001036c     0x4  Data  Gb  ui.o [1]
+ui_Label10              0x2001039c     0x4  Data  Gb  ui.o [1]
+ui_Label11              0x200103b4     0x4  Data  Gb  ui.o [1]
+ui_Label12              0x200103a4     0x4  Data  Gb  ui.o [1]
+ui_Label13              0x200103a8     0x4  Data  Gb  ui.o [1]
+ui_Label14              0x200103ac     0x4  Data  Gb  ui.o [1]
+ui_Label15              0x200103b0     0x4  Data  Gb  ui.o [1]
+ui_Label16              0x200103c4     0x4  Data  Gb  ui.o [1]
+ui_Label17              0x200103c8     0x4  Data  Gb  ui.o [1]
+ui_Label18              0x200103cc     0x4  Data  Gb  ui.o [1]
+ui_Label19              0x200103d0     0x4  Data  Gb  ui.o [1]
+ui_Label2               0x20010378     0x4  Data  Gb  ui.o [1]
+ui_Label20              0x200103d4     0x4  Data  Gb  ui.o [1]
+ui_Label21              0x200103d8     0x4  Data  Gb  ui.o [1]
+ui_Label22              0x200103dc     0x4  Data  Gb  ui.o [1]
+ui_Label23              0x200103e0     0x4  Data  Gb  ui.o [1]
+ui_Label25              0x200103e8     0x4  Data  Gb  ui.o [1]
+ui_Label3               0x2001037c     0x4  Data  Gb  ui.o [1]
+ui_Label4               0x20010380     0x4  Data  Gb  ui.o [1]
+ui_Label5               0x20010384     0x4  Data  Gb  ui.o [1]
+ui_Label6               0x20010388     0x4  Data  Gb  ui.o [1]
+ui_Label7               0x2001038c     0x4  Data  Gb  ui.o [1]
+ui_Label8               0x20010394     0x4  Data  Gb  ui.o [1]
+ui_Label9               0x20010398     0x4  Data  Gb  ui.o [1]
+ui_LabelValue           0x2001040c     0x4  Data  Gb  ui.o [1]
+ui_Panel1               0x20010370     0x4  Data  Gb  ui.o [1]
+ui_Panel2               0x20010390     0x4  Data  Gb  ui.o [1]
+ui_Panel3               0x200103a0     0x4  Data  Gb  ui.o [1]
+ui_Screen1              0x20010368     0x4  Data  Gb  ui.o [1]
+ui_Screen1_screen_init  0x08042ead   0x862  Code  Gb  ui.o [1]
+ui_Screen2              0x200103e4     0x4  Data  Gb  ui.o [1]
+ui_Screen2_screen_init  0x08043721   0x326  Code  Gb  ui.o [1]
+ui_Slider1              0x200103fc     0x4  Data  Gb  ui.o [1]
+ui_TextArea1            0x200103f4     0x4  Data  Gb  ui.o [1]
+ui_add_points_to_chart  0x08043a8d    0xe8  Code  Gb  ui.o [1]
+ui_btnMessageBox        0x200103f0     0x4  Data  Gb  ui.o [1]
+ui_draw_meter           0x08043b7d   0x198  Code  Gb  ui.o [1]
+ui_event_Slider1        0x08042d81    0x6a  Code  Lc  ui.o [1]
+ui_img_broken_clouds_png
+                        0x08013088     0xc  Data  Gb  ui_img_broken_clouds_png.o [1]
+ui_img_broken_clouds_png_data
+                        0x0800e858  0x4830  Data  Gb  ui_img_broken_clouds_png.o [1]
+ui_img_few_clouds_png   0x080178c4     0xc  Data  Gb  ui_img_few_clouds_png.o [1]
+ui_img_few_clouds_png_data
+                        0x08013094  0x4830  Data  Gb  ui_img_few_clouds_png.o [1]
+ui_img_rain_png         0x0801c100     0xc  Data  Gb  ui_img_rain_png.o [1]
+ui_img_rain_png_data    0x080178d0  0x4830  Data  Gb  ui_img_rain_png.o [1]
+ui_init                 0x08043a47    0x46  Code  Gb  ui.o [1]
+ui_lblMoving            0x200103ec     0x4  Data  Gb  ui.o [1]
+ui_switch_screeen       0x08043d19    0x1c  Code  Gb  ui.o [1]
+ulMaxPRIGROUPValue      0x200050f8     0x4  Data  Lc  port.o [1]
+unicode_list_1          0x080376b0    0x7c  Data  Lc  lv_font_montserrat_14.o [1]
+unicode_list_1          0x0800da80    0x7c  Data  Lc  lv_font_montserrat_20.o [1]
+unicode_list_1          0x0800855c    0x7c  Data  Lc  lv_font_montserrat_28.o [1]
+unicode_list_compare    0x080306e1     0x8  Code  Lc  lv_font_fmt_txt.o [1]
+update_cursor_position_on_click
+                        0x08042995   0x198  Code  Lc  lv_textarea.o [1]
+uwTick                  0x20005100     0x4  Data  Gb  stm32f4xx_hal.o [1]
+uwTickFreq              0x200050fc     0x1  Data  Gb  stm32f4xx_hal.o [1]
+uwTickPrio              0x20005104     0x4  Data  Gb  stm32f4xx_hal.o [1]
+uxCriticalNesting       0x200050f4     0x4  Data  Lc  port.o [1]
+uxCurrentNumberOfTasks  0x20010114     0x4  Data  Lc  tasks.o [1]
+uxDeletedTasksWaitingCleanUp
+                        0x200100fc     0x4  Data  Lc  tasks.o [1]
+uxListRemove            0x0804c5c5    0x26  Code  Gb  list.o [1]
+uxPendedTicks           0x20010124     0x4  Data  Lc  tasks.o [1]
+uxSchedulerSuspended    0x20010138     0x4  Data  Lc  tasks.o [1]
+uxTaskNumber            0x20010130     0x4  Data  Lc  tasks.o [1]
+uxTopReadyPriority      0x2001011c     0x4  Data  Lc  tasks.o [1]
+vApplicationGetIdleTaskMemory
+                        0x0804ca69    0x14  Code  Gb  freertos.o [1]
+vListInitialise         0x0804c535    0x1a  Code  Gb  list.o [1]
+vListInitialiseItem     0x0804c54f     0x6  Code  Gb  list.o [1]
+vListInsert             0x0804c56d    0x58  Code  Gb  list.o [1]
+vListInsertEnd          0x0804c555    0x18  Code  Gb  list.o [1]
+vPortEnableVFP          0x0804cb11          Code  Gb  portasm.o [1]
+vPortEnterCritical      0x0804c74d    0x32  Code  Gb  port.o [1]
+vPortExitCritical       0x0804c77f    0x24  Code  Gb  port.o [1]
+vPortFree               0x0804c9a1    0x5c  Code  Gb  heap_4.o [1]
+vPortSetupTimerInterrupt
+                        0x0804c7cd    0x1e  Code  Wk  port.o [1]
+vPortStartFirstTask     0x0804caf1          Code  Gb  portasm.o [1]
+vPortValidateInterruptPriority
+                        0x0804c7ed    0x44  Code  Gb  port.o [1]
+vTaskDelay              0x0804be43    0x96  Code  Gb  tasks.o [1]
+vTaskInternalSetTimeOutState
+                        0x0804c351    0x12  Code  Gb  tasks.o [1]
+vTaskMissedYield        0x0804c3df     0xc  Code  Gb  tasks.o [1]
+vTaskPlaceOnEventList   0x0804c251    0x8e  Code  Gb  tasks.o [1]
+vTaskStartScheduler     0x0804bed9   0x11e  Code  Gb  tasks.o [1]
+vTaskSuspendAll         0x0804c001    0x10  Code  Gb  tasks.o [1]
+vTaskSwitchContext      0x0804c1f7    0x5a  Code  Gb  tasks.o [1]
+value_changed_event_cb  0x080567f1    0x3a  Code  Lc  lv_calendar_header_arrow.o [1]
+value_changed_event_cb  0x08054d0d    0x44  Code  Lc  lv_calendar_header_dropdown.o [1]
+value_update            0x08049a95    0xca  Code  Lc  lv_arc.o [1]
+xBlockAllocatedBit      0x2000b764     0x4  Data  Lc  heap_4.o [1]
+xDelayedTaskList1       0x2001013c    0x14  Data  Lc  tasks.o [1]
+xDelayedTaskList2       0x20010150    0x14  Data  Lc  tasks.o [1]
+xFreeBytesRemaining     0x2000b75c     0x4  Data  Lc  heap_4.o [1]
+xIdleStack              0x2000fa50   0x200  Data  Lc  freertos.o [1]
+xIdleTaskTCBBuffer      0x2000f9fc    0x54  Data  Lc  freertos.o [1]
+xMinimumEverFreeBytesRemaining
+                        0x2000b760     0x4  Data  Lc  heap_4.o [1]
+xNextTaskUnblockTime    0x20010134     0x4  Data  Lc  tasks.o [1]
+xNumOfOverflows         0x2001012c     0x4  Data  Lc  tasks.o [1]
+xPendingReadyList       0x2001003c    0x14  Data  Lc  tasks.o [1]
+xPortStartScheduler     0x0804c63d   0x110  Code  Gb  port.o [1]
+xPortSysTickHandler     0x0804c7a3    0x2a  Code  Gb  port.o [1]
+xQueueGenericCreate     0x08050ba5    0x8c  Code  Gb  queue.o [1]
+xQueueGenericCreateStatic
+                        0x08050ad9    0xcc  Code  Gb  queue.o [1]
+xQueueGenericSend       0x08050c31   0x218  Code  Gb  queue.o [1]
+xQueueGenericSendFromISR
+                        0x08050e49    0xca  Code  Gb  queue.o [1]
+xQueueReceive           0x08050f15   0x252  Code  Gb  queue.o [1]
+xQueueReceiveFromISR    0x0805116d    0xa8  Code  Gb  queue.o [1]
+xSchedulerRunning       0x20010120     0x4  Data  Lc  tasks.o [1]
+xStart                  0x2000b750     0x8  Data  Lc  heap_4.o [1]
+xSuspendedTaskList      0x20010100    0x14  Data  Lc  tasks.o [1]
+xTaskCheckForTimeOut    0x0804c363    0x7c  Code  Gb  tasks.o [1]
+xTaskCreate             0x0804bc67    0xdc  Code  Gb  tasks.o [1]
+xTaskCreateStatic       0x0804bb71    0xf6  Code  Gb  tasks.o [1]
+xTaskGetSchedulerState  0x0804c46d    0x1c  Code  Gb  tasks.o [1]
+xTaskIncrementTick      0x0804c0f3   0x104  Code  Gb  tasks.o [1]
+xTaskPriorityDisinherit
+                        0x0804c48d    0xa2  Code  Gb  tasks.o [1]
+xTaskRemoveFromEventList
+                        0x0804c2df    0x72  Code  Gb  tasks.o [1]
+xTaskResumeAll          0x0804c011    0xe2  Code  Gb  tasks.o [1]
+xTasksWaitingTermination
+                        0x20010050    0x14  Data  Lc  tasks.o [1]
+xTickCount              0x20010118     0x4  Data  Lc  tasks.o [1]
+xYieldPending           0x20010128     0x4  Data  Lc  tasks.o [1]
+year_event_cb           0x08054cd1    0x3a  Code  Lc  lv_calendar_header_dropdown.o [1]
+zero_mem                0x200000c8     0x4  Data  Lc  lv_mem.o [1]
+
+
+[1] = D:\GITHUB\DisplayLink\LVGL_Src\EWARM\firmware\Obj
+[2] = command line
+[3] = dl7M_tlf.a
+[4] = m7M_tls.a
+[5] = rt7M_tl.a
+[6] = shb_l.a
+
+  225 933 bytes of readonly  code memory
+  130 950 bytes of readonly  data memory
+  124 699 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

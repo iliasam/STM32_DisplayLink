@@ -1,0 +1,1 @@
+This is a copy of LVGL library, taken from master branch from here: https://github.com/lvgl/lvgl
