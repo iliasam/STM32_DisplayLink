@@ -5,6 +5,10 @@ This is example how to connect VGA display to STM32 using cheap DisplayLink adap
 DisplayLink is a kind of USB video card with internal framebuffer RAM, 
 so you can connect such adapter to the USB HOST of your MCU and get a big display for your STM32.  
   
+See video: https://www.youtube.com/watch?v=bcdXBnMFIVg  
+  
+![Alt text](Photo/Photo1.jpg?raw=true "Image")  
+  
 Only USB 2.0 version of adapters is supported in code.  
 Of course your STM32 will need to have USB HOST hardware. STM32 MCUs have only Full-Speed internal USB, so data transfer rate is limited ~1 Mbyte/s.  
 For updating VGA screen with 640x480 resolution you will need to send ~0.6 MByte of data, which mean that FPS will be very low.  
